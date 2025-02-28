@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+/*nav positioning*/
+#nav {
+    font-size: 14pt;
+    position: absolute;
+    top: -50px;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    width: 90%;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #03178a
+    }
+/*nav styling*/
+#nav a, #nav a:visited {
+    color: #c8102e;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 3px solid #79bf22;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: #fff;
+    }
+#nav a:hover {
+    transform: scale(1.15)
+    }
+/*hiding things*/
+hr, .pet--statsheader, .pet--smallname, .petJobs, #petRecord, #petLead, #page_footer, #sb_top, #sb_side, #page_banner, #petLinks {
+    display: none
+    }
+/*background*/
+body {
+    background-image: url(https://i.postimg.cc/7h5y3fgk/00156.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+    }
+/*centering*/
+#page_content {
+    display: block;
+    margin: auto;
+    width: 100%;
+    }
+#container {
+    margin: auto
+    }
+/*link colors*/
+a.pet--color {
+    }
+a.pet--color:hover {
+    }
+a {
+    color: #63ceff
+    }
+a:hover {
+    color: #31ce31
+    }
+/*title*/
+.pet--header {
+    }
+.pet--name {
+    display: block;
+    font-size: 36pt;
+    margin-top: -25px;
+    font-family: sour gummy;
+    }
+/*container*/
+main {
+    justify-content: center;
+    justify-items: center;
+}
+#petLookupContent {
+    display: grid;
+    position: relative;
+    font-family: sour gummy;
+    font-size: 12pt;
+    color: black;
+    align-items: center;
+    background-color: white;
+    border-radius: 250px;
+    border: 5px solid #0859a5;
+    padding: 30px;
+    width: 80%;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 1);
+    margin: auto;
+    }
+#petInfo {
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 350px
+}
+#petStats {
+    background-color: transparent;
+    align-content: center;
+}
+.pet--no-trade-alert {
+    background-color: transparent;
+}
+#petPetpet {
+    position: absolute;
+    width: 49%;
+    margin-left: 20px;
+    top: 300px
+}
+.pet--petpetheader {
+    font-size: 8pt;
+}
+.pet--petpetname {
+    display: block;
+    font-size: 18pt;
+}
+.pet--petpetage {
+    display: none;
+}
+#aio_sidebar { display: none; }
