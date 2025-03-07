@@ -1,0 +1,230 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap");
+#nav, #mobilenav {
+font-size: 12pt;
+position: absolute;
+top: -3.5em;
+height: fit-content;
+margin-top: 0.75em;
+text-align: center;
+display: flex;
+flex-direction: row;
+justify-self: center;
+gap: 1em
+}
+/*nav styling*/
+#nav a, #nav a:visited, #mobilenav a, #mobilenav a:visited {
+padding-left: 0.25em;
+padding-right: 0.25em;
+border-radius: 0.25em;
+color: #f0f0a4;
+text-shadow: 0 0 15px #fffd9a
+}
+#nav a:hover, #mobilenav a:hover {
+transform: scale(1.15)
+}
+/*hiding things*/
+hr, .pet--statsheader, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks, #mobilenav {
+    display: none
+}
+/*background*/
+body {
+    background-image: url(https://i.postimg.cc/W4fx14x5/biolum.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black
+}
+/*centering*/
+#page_event {
+margin: 0
+}
+#container {
+margin: auto;
+display: flex;
+flex-direction: column;
+width: 100dvw;
+min-height: 100dvh;
+height: fit-content
+}
+#page_content {
+display: flex;
+margin: auto;
+width: 100vw;
+min-height: 100%;
+justify-content: center;
+align-items: center;
+height: fit-content
+}
+/*title*/
+.pet--name {
+    display: block;
+    font-size: 48pt;
+    font-family: nunito;
+    font-weight: 500;
+    color: #066f7d;
+    text-shadow: 2px 2px 5px #61d9f5
+}
+.pet--header {
+    font-size: 12pt;
+    margin-top: 0
+}
+.pet--color {
+    color: #ed618d
+}
+/*container*/
+#petLookupContent {
+max-width: 44em;
+margin: auto;
+position: relative;
+background-color: white;
+border-radius: 1em;
+padding-bottom: 1em;
+padding-left: 1.5em;
+padding-right: 1.5em;
+box-shadow: 0 0 10px 3px #61d9f5;
+color: black;
+font-family: varela round;
+letter-spacing: 0.05em;
+filter: brightness(0.9)
+}
+/*info*/
+#petImage {
+width: 100%
+}
+#petInfo {
+grid-template-columns: 50% 50%;
+width: 100%;
+gap: 1em;
+justify-content: center
+}
+#petStats {
+background-color: transparent;
+font-size: 11pt;
+padding: 0
+}
+#petTraits {
+font-size: 8pt
+}
+/*extras*/
+#petPetpet {
+position: absolute;
+width: 45%;
+top: 19em
+}
+.pet--petpetheader, .pet--petpetdesc {
+    font-size: 8pt
+}
+.pet--petpetage {
+    display: none
+}
+.pet--petpetname {
+    display: block;
+    font-size: 18pt;
+    color: #066f7d
+}
+.pet--petpetimg {
+    content: url(https://i.postimg.cc/T3c6ffRs/Tilly-small.png)
+}
+.pet--no-trade-alert {
+    position: absolute;
+    background-color: transparent;
+    color: red;
+    bottom: -2.25em;
+    font-weight: bold;
+    text-shadow: -1px 1px 2px black;
+    left: 0;
+    width: 100%
+}
+.pet--no-trade-text {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 0.25em;
+    border-radius: 0.5em
+}
+.pet--no-trade-icon {
+    display: none
+}
+/*custom content*/
+#petDescription {
+display: grid;
+grid-template-columns: 50% 50%;
+width: 100%;
+margin-top: 15px;
+gap: 1em;
+justify-content: center;
+color: white
+}
+#petDescription h2 {
+line-height: 0.5em
+}
+#testimonials, #bio {
+background-color: #28838e;
+border-radius: 0.35em;
+padding-left: 0.35em;
+padding-right: 0.35em;
+box-shadow: 0 0 5px 3px #28838e
+}
+@media screen and (max-width: 959px) {
+    #nav {
+    display: none
+    }
+    #sb_top {
+    display: initial
+    }
+    #mobilenav {
+    display: flex;
+    top: initial;
+    top: -2.1em;
+    font-size: 36pt;
+    gap: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 1em;
+    }
+    #container {
+    min-height: initial;
+    }
+    #page_content {
+    margin-bottom: 2em;
+    margin-top: 1.25em
+    }
+    #petLookupContent {
+    width: 90dvw;
+    height: fit-content;
+    font-size: 24pt;
+    padding: 1em
+    }
+    #petDescription {
+    grid-template-columns: initial;
+    grid-template-areas: "bio" "testimonials"
+    }
+    #bio {
+    grid-area: bio
+    }
+    #petStats {
+    font-size: 24pt
+    }
+    .pet--name {
+        font-size: 72pt
+    }
+    .pet--header {
+        margin-top: -1em;
+        font-size: 24pt;
+        padding-bottom: 1em
+    }
+    .pet--image {
+        width: 40dvw
+    }
+    .pet--no-trade-alert {
+        bottom: -2em
+    }
+    .pet--petpetheader, .pet--petpetdesc {
+        font-size: 20pt
+    }
+    .pet--petpetname {
+        font-size: 36pt
+    }
+    #petTraits {
+    font-size: 20pt
+    }
+}

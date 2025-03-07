@@ -1,0 +1,194 @@
+hr, .pet--statsheader, .pet--smallname, .petJobs, #petChallenge, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks {
+    display: none
+}
+body {
+    cursor: crosshair;
+    background-image: url(https://i.postimg.cc/pXhwR2hg/Tara.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body, td, p, b {
+    font-family: consolas;
+    color: #545454 !important;
+    line-height: 1.4 !important;
+    letter-spacing: 1px
+}
+a, a:visited {
+    text-decoration: none !important;
+    color: #b08ece !important;
+    letter-spacing: 2px !important;
+    font-weight: 700
+}
+a:hover {
+    color: #fe5c59 !important
+}
+#koug {
+position: absolute;
+left: 525px;
+top: 90px;
+}
+#koug img {
+width: 275px;
+}
+h2 {
+    font-style: normal !important;
+}
+#page_content {
+display: block;
+margin: auto;
+min-width: fit-content;
+height: fit-content;
+}
+#container {
+margin: auto;
+}
+#petLookupContent {
+position: relative;
+color: black;
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-areas: "top top" "petpet placeholder" "trophies trophies" "trade trade" "desc desc";
+width: 100%;
+gap: unset;
+justify-items: center;
+align-items: center;
+background-color: white;
+border-radius: 22px;
+padding: 20px;
+box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.75)
+}
+#petTop {
+grid-area: top;
+width: 100%;
+}
+#petInfo {
+text-transform: lowercase;
+display: grid;
+grid-area: info;
+width: 100%;
+grid-template-columns: 50%;
+align-items: center
+}
+#petImage {
+grid-area: image;
+margin-top: -175px
+
+}
+#petStats {
+grid-area: stats;
+background: none;
+text-align: left
+}
+#petPetpet {
+width: 49%;
+position: absolute;
+left: 0%;
+top: 23em;
+padding-left: 10px;
+font-size: 8pt;
+text-transform: lowercase;
+}
+#petLinks {
+grid-area: links;
+padding-top: 1em;
+padding-bottom: 1em
+}
+#petTrophies {
+grid-area: trophies;
+padding-top: 1em;
+padding-bottom: 1em
+}
+#petDescription {
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-areas: "testimonials bio";
+grid-area: desc;
+color: white;
+border-radius: 5px;
+color: black;
+width: 100%;
+}
+#Testimonials {
+grid-area: testimonials;
+border-style: solid;
+width: 95%;
+border-radius: 5px;
+justify-self: center;
+padding-bottom: 10px;
+border-style: double;
+border-color: #b08ece;
+border-width: 3px;
+}
+#bio {
+grid-area: bio;
+border-style: solid;
+width: 95%;
+border-radius: 5px;
+justify-self: center;
+padding-bottom: 10px;
+border-style: double;
+border-color: #b08ece;
+border-width: 3px;
+}
+
+.pet--no-trade-alert {
+    grid-area: trade;
+    background-color: rgba(0,0,0,0);
+    margin: 1em;
+    width: 100%;
+}
+.pet--header {
+    display: inline-block;
+    width: max-content;
+}
+a.pet--color {
+    color: #0d35ab
+}
+a.pet--color:hover {
+    color: #90ffff
+}
+a {
+    color: #0d35ab
+}
+a:hover {
+    color: #90ffff
+}
+.pet-traits-greeting, .pet-traits-interests {
+    font-size: 8pt;
+}
+#nav {
+font-family: courier;
+position:absolute;
+top: -3em;
+height: fit-content;
+margin-top: 10px;
+text-align: center;
+display: flex;
+flex-direction: row;
+justify-self: center;
+gap: 1em;
+}
+#nav a, #nav a:visited {
+background: #fff;
+padding-left: 4px;
+padding-right: 4px;
+border: solid 3px white;
+border-radius: 15px;
+}
+#nav a:hover {
+background: #fff;
+padding-left: 4px;
+padding-right: 4px;
+border: solid 3px #b08ece;
+}
+#credit {
+position: absolute;
+bottom: -35px;
+background-color: white;
+border-radius: 15px;
+border: 3px solid white;
+}
+#credit:hover {
+border-color: #b08ece
+}
