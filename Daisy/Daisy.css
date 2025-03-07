@@ -1,4 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/*HORSE STABLES*/
+.ul__Lady_Violet,.ul__Grooni,.ul__Starrymoon,.ul__Rocking,.ul__Neighbility,.ul__JollyJumper,
+.ul__Twinklepaws,.ul__Neighbel,.ul__SprinkleBiscuit,.ul__Theya,.ul__Phaion,.ul__PinkHorse{
+    background-image: url(https://i.postimg.cc/02fHkQ7m/stableframe.png);
+    background-size: 100% 83%;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.ul__Lady_Violet img,.ul__Grooni img,.ul__Starrymoon img,.ul__Rocking img,.ul__Neighbility img,.ul__JollyJumper img,
+.ul__Twinklepaws img,.ul__Neighbel img,.ul__SprinkleBiscuit img,.ul__Theya img,.ul__Phaion img,.ul__PinkHorse img{
+    margin-top: 15px;
+    border: none;
+    width: 75px
+}
+.ul__Lady_Violet .ul--petname,.ul__Grooni .ul--petname,.ul__Starrymoon .ul--petname,.ul__Rocking .ul--petname,.ul__Neighbility .ul--petname,.ul__JollyJumper .ul--petname,
+.ul__Twinklepaws .ul--petname,.ul__Neighbel .ul--petname,.ul__SprinkleBiscuit .ul--petname,.ul__Theya .ul--petname,.ul__Phaion .ul--petname,.ul__PinkHorse .ul--petname{
+    padding-top: 15px;
+    background-image: url(https://i.postimg.cc/1RBmgL3G/sign.png);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white !important;
+}
+.ul__Lady_Violet img:hover,.ul__Grooni img:hover,.ul__Starrymoon img:hover,.ul__Rocking img:hover,.ul__Neighbility img:hover,.ul__JollyJumper img:hover,
+.ul__Twinklepaws img:hover,.ul__Neighbel img:hover,.ul__SprinkleBiscuit img:hover,.ul__Theya img:hover,.ul__Phaion img:hover,.ul__PinkHorse img:hover{
+    border: none;
+    transform: scale(90%)
+}
 /*CATEGORIES*/
 /*INSERTS FIRST CATEGORY*/
 .petlist__before {
@@ -241,22 +272,21 @@ border-bottom: 5px solid #ffbcdd;
 padding: 5px;
 background-color: white;
 border-radius: 25px;
-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
 margin-top: -5px;
 font-size: 11pt;
-border-bottom: 5px solid #ffbcdd;
+border-bottom: 5px solid #ffbcdd
 }
 .ul--petname, .ul--petname:visited, .ul--petname:hover {
     color: #000;
-    margin-top: -5px;
+    margin-top: 9px
 }
 .ul--petimg {
     margin-bottom: 5px;
     border-width: 2px;
-    border-color: #fbb811;
-    border-style: solid;
     border-radius: 15px;
     width: 100px;
+    padding-top: 16px
 }
 .ul--petimg:hover {
     border: solid 2px #ffbcdd;
@@ -270,10 +300,10 @@ background-color: white;
 backdrop-filter: blur(3px);
 border-radius: 25px;
 border-color: rgba(137, 207, 240, 0.85);
-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
 color: #000;
 margin-top: -5px;
-border-bottom: 5px solid #ffbcdd;
+border-bottom: 5px solid #ffbcdd
 }
 #siteTrophiesList a, #gameTrophiesList a, #siteTrophiesList a:visited, #gameTrophiesList a:visited, #siteTrophiesList a:hover, #gameTrophiesList a:hover {
 color: black
@@ -284,4 +314,13 @@ color: black
 /*EXTRAS*/
 #userReportBlock {
 margin-top: -10px
+}
+.ul__pet {
+    background-image: url(https://i.postimg.cc/02fHkQ7m/stableframe.png);
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
 }
