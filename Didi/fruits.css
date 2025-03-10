@@ -40,14 +40,26 @@ body {
     background-attachment: fixed
     }
 /*centering*/
-#page_content {
-    display: block;
-    margin: auto;
-    width: 100%;
-    }
+#page_event {
+    margin: 0
+}
 #container {
-    margin: auto
-    }
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100dvw;
+    min-height: 100dvh;
+    height: fit-content
+}
+#page_content {
+    display: flex;
+    margin: auto;
+    width: 100vw;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: fit-content
+}
 /*link colors*/
 a.pet--color {
     }
@@ -77,21 +89,22 @@ main {
     display: grid;
     position: relative;
     font-family: sour gummy;
-    font-size: 12pt;
+    font-size: 14pt;
     color: black;
-    align-items: center;
+    align-items: baseline;
     background-color: white;
-    border-radius: 250px;
+    border-radius: 50em;
     border: 5px solid #0859a5;
-    padding: 30px;
-    width: 80%;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 1);
-    margin: auto;
-    }
+    padding: 2em;
+    width: 30em;
+    min-height: 80dvh;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1);
+    margin-top: 3em;
+}
 #petInfo {
     grid-template-columns: 50% 50%;
     width: 100%;
-    height: 350px
+    padding-top: 1em;
 }
 #petStats {
     background-color: transparent;
@@ -104,7 +117,7 @@ main {
     position: absolute;
     width: 49%;
     margin-left: 20px;
-    top: 300px
+    top: 17em
 }
 .pet--petpetheader {
     font-size: 8pt;
@@ -116,4 +129,26 @@ main {
 .pet--petpetage {
     display: none;
 }
-#aio_sidebar { display: none; }
+@media screen and (max-width: 959px) {
+    #sb_top, #sb_bottom {
+    display: initial;
+    }
+    #nav {
+    font-size: 32pt;
+    top: -2em;
+    width: 100%;
+    }
+    .pet--name {
+        font-size: 96pt;
+        margin-top: .25em;
+    }
+    #petLookupContent {
+    margin: auto;
+    margin-top: 2em;
+    width: 90vw;
+    padding: 0;
+    font-size: 24pt;
+    height: fit-content;
+    padding-bottom: 2em;
+    }
+}
