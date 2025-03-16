@@ -30,7 +30,7 @@ hr, .pet--statsheader, .pet--smallname, .petJobs, #petLead, #page_footer, #petBa
 }
 /*background*/
 body {
-    background-image: url(https://i.postimg.cc/kg56W1Tg/00049.png);
+    background-image: url(https://i.postimg.cc/XY2qRK0q/pumpkin.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -60,7 +60,7 @@ height: fit-content
 /*title*/
 .pet--name {
     display: block;
-    font-size: 48pt
+    font-size: 36pt
 }
 .pet--header {
     font-size: 12pt;
@@ -77,17 +77,14 @@ padding-bottom: 1em;
 padding-left: 1em;
 padding-right: 1em;
 box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
-color: black;
-border-style: solid;
-border-color: #411085;
-border-width: 5px;
+color: black
 }
 /*info*/
 #petImage {
 width: 100%
 }
 .pet--image {
-    content: url(https://i.postimg.cc/5ycGYpHw/Pumpkin-Princess-PFP.png);
+    content: url(https://i.postimg.cc/5ycGYpHw/Pumpkin-Princess-PFP.png)
 }
 #petInfo {
 grid-template-columns: 50% 50%;
@@ -107,7 +104,7 @@ font-size: 8pt
 #petPetpet {
 position: absolute;
 width: 45%;
-top: 19em
+top: 17.5em
 }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 8pt
@@ -162,7 +159,12 @@ border-width: 2px;
 border-color: #000;
 border-radius: 0.35em;
 padding-left: 0.35em;
-padding-right: 0.35em
+padding-right: 0.35em;
+background-color: #8656a8;
+border: 10px solid #8656a8
+}
+.bio-text img {
+    width: 100%
 }
 @media screen and (max-width: 959px) {
     #nav {
@@ -179,10 +181,10 @@ padding-right: 0.35em
     gap: 0;
     width: 100%;
     justify-content: center;
-    gap: 1em;
+    gap: 1em
     }
     #container {
-    min-height: fit-content;
+    min-height: fit-content
     }
     #page_content {
     margin-bottom: 2em;
@@ -209,10 +211,10 @@ padding-right: 0.35em
     font-size: 24pt
     }
     #petPetpet {
-    top: 19em
+    top: 17em
     }
     .pet--name {
-        font-size: 72pt
+        font-size: 48pt
     }
     .pet--header {
         margin-top: -1em;
@@ -232,7 +234,7 @@ padding-right: 0.35em
         font-size: 36pt
     }
     .pet--petpetimg {
-        width: 18vw;
+        width: 18vw
     }
     #petTraits {
     font-size: 16pt

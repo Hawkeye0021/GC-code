@@ -1,11 +1,12 @@
 
+@import url(https://fonts.googleapis.com/css2?family=Schoolbell&display=swap);
 /*nav positioning*/
 #nav, #mobilenav {
-font-size: 12pt;
+font-size: 14pt;
 position: absolute;
 top: -3em;
 height: fit-content;
-margin-top: 0.75em;
+margin-top: 0.25em;
 text-align: center;
 display: flex;
 flex-direction: row;
@@ -19,7 +20,8 @@ padding-left: 0.25em;
 padding-right: 0.25em;
 border-radius: 0.25em;
 color: black;
-border: 3px solid white
+border: 4px dotted #ff623c;
+box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.75)
 }
 #nav a:hover, #mobilenav a:hover {
 transform: scale(1.15)
@@ -30,11 +32,12 @@ hr, .pet--statsheader, .pet--smallname, .petJobs, #petLead, #page_footer, #petBa
 }
 /*background*/
 body {
-    background-image: url(https://i.postimg.cc/kg56W1Tg/00049.png);
+    background-image: url(https://i.postimg.cc/sXxHNrpM/Glittering-Forest.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: black
+    color: black;
+    font-family: schoolbell
 }
 /*centering*/
 #page_event {
@@ -60,57 +63,70 @@ height: fit-content
 /*title*/
 .pet--name {
     display: block;
-    font-size: 48pt
+    font-size: 48pt;
+    color: #ffda2e;
+    text-shadow: 1px 1px 1px black
 }
 .pet--header {
-    font-size: 12pt;
-    margin-top: 0
+    font-size: 16pt;
+    margin-top: 0;
+    background-color: white;
+    border-radius: 0.35em;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.75);
+    padding-bottom: 0.25em;
+    border: 6px dotted #a574b6
+}
+.pet--color:after {
+    content: "?"
 }
 /*container*/
 #petLookupContent {
 max-width: 44em;
 margin: auto;
 position: relative;
-background-color: white;
 border-radius: 0.75em;
 padding-bottom: 1em;
-padding-left: 1em;
-padding-right: 1em;
-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
-color: black;
-border-style: solid;
-border-color: #411085;
-border-width: 5px;
+color: black
 }
 /*info*/
 #petImage {
 width: 100%
 }
-.pet--image {
-    content: url(https://i.postimg.cc/5ycGYpHw/Pumpkin-Princess-PFP.png);
-}
 #petInfo {
 grid-template-columns: 50% 50%;
+max-width: 43em;
 width: 100%;
 gap: 1em;
-justify-content: center
+justify-content: center;
+background-color: white;
+border-radius: 0.35em;
+box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.75);
+padding-bottom: 0.5em;
+padding-top: 0.5em;
+border: 6px dotted #73de00
 }
 #petStats {
 background-color: transparent;
-font-size: 11pt;
+font-size: 14pt;
 padding: 0
 }
+#petStats a {
+color: indigo
+}
+#petStats a:hover {
+color: purple
+}
 #petTraits {
-font-size: 8pt
+font-size: 11pt
 }
 /*extras*/
 #petPetpet {
 position: absolute;
-width: 45%;
-top: 19em
+width: 48%;
+top: 22em
 }
 .pet--petpetheader, .pet--petpetdesc {
-    font-size: 8pt
+    font-size: 10pt
 }
 .pet--petpetage {
     display: none
@@ -124,7 +140,9 @@ top: 19em
 }
 .pet--petpetname {
     display: block;
-    font-size: 18pt
+    font-size: 24pt;
+    color: #ffda2e;
+    text-shadow: 1px 1px 1px black
 }
 .pet--no-trade-alert {
     position: absolute;
@@ -149,92 +167,31 @@ top: 19em
 display: grid;
 grid-template-columns: 50% 50%;
 width: 100%;
-margin-top: 15px;
 gap: 1em;
-justify-content: center
+justify-content: center;
+font-size: 14pt
 }
 #petDescription h2 {
 line-height: 0.5em
 }
 #testimonials, #bio {
-border-style: solid;
-border-width: 2px;
-border-color: #000;
 border-radius: 0.35em;
 padding-left: 0.35em;
-padding-right: 0.35em
+padding-right: 0.35em;
+box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.75);
+background-color: white;
+border: 6px dotted #69bdf3
 }
-@media screen and (max-width: 959px) {
-    #nav {
-    display: none
-    }
-    #sb_top {
-    display: initial
-    }
-    #mobilenav {
-    display: flex;
-    top: initial;
-    top: -2.5em;
-    font-size: 30pt;
-    gap: 0;
-    width: 100%;
-    justify-content: center;
-    gap: 1em;
-    }
-    #container {
-    min-height: fit-content;
-    }
-    #page_content {
-    margin-bottom: 2em;
-    margin-top: 1.5em
-    }
-    #petLookupContent {
-    width: 90dvw;
-    height: fit-content;
-    font-size: 24pt;
-    padding-top: 1em
-    }
-    #petDescription {
-    grid-template-columns: initial;
-    grid-template-areas: "bio" "testimonials";
-    font-size: 24pt;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-    margin-top: 1em;
-    }
-    #bio {
-    grid-area: bio
-    }
-    #petStats {
-    font-size: 24pt
-    }
-    #petPetpet {
-    top: 19em
-    }
-    .pet--name {
-        font-size: 72pt
-    }
-    .pet--header {
-        margin-top: -1em;
-        font-size: 24pt
-    }
-    .pet--image {
-        width: 40dvw
-    }
-    .pet--no-trade-alert {
-        bottom: -2em;
-        font-size: 24pt
-    }
-    .pet--petpetheader, .pet--petpetdesc {
-        font-size: 20pt
-    }
-    .pet--petpetname {
-        font-size: 36pt
-    }
-    .pet--petpetimg {
-        width: 18vw;
-    }
-    #petTraits {
-    font-size: 16pt
-    }
+#testimonials {
+margin-left: 0.5em;
+padding-bottom: 1em;
+}
+#quotes {
+display: flex;
+flex-direction: column;
+height: 100%;
+justify-content: space-around;
+}
+#bio {
+margin-right: 0.5em
 }

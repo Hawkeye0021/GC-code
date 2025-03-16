@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css2?family=Special+Elite&display=swap);
 /*nav positioning*/
 #nav, #mobilenav {
 font-size: 12pt;
@@ -30,7 +30,7 @@ hr, .pet--statsheader, .pet--smallname, .petJobs, #petLead, #page_footer, #petBa
 }
 /*background*/
 body {
-    background-image: url(https://i.postimg.cc/kg56W1Tg/00049.png);
+    background-image: url(https://i.postimg.cc/J0LFYbMJ/BooksHD.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -78,16 +78,11 @@ padding-left: 1em;
 padding-right: 1em;
 box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
 color: black;
-border-style: solid;
-border-color: #411085;
-border-width: 5px;
+font-family: special elite;
 }
 /*info*/
 #petImage {
 width: 100%
-}
-.pet--image {
-    content: url(https://i.postimg.cc/5ycGYpHw/Pumpkin-Princess-PFP.png);
 }
 #petInfo {
 grid-template-columns: 50% 50%;
@@ -199,8 +194,7 @@ padding-right: 0.35em
     grid-template-areas: "bio" "testimonials";
     font-size: 24pt;
     border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-    margin-top: 1em;
+    border-bottom-right-radius: 1em
     }
     #bio {
     grid-area: bio
@@ -209,7 +203,7 @@ padding-right: 0.35em
     font-size: 24pt
     }
     #petPetpet {
-    top: 19em
+        top: 19em
     }
     .pet--name {
         font-size: 72pt
