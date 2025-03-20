@@ -141,10 +141,10 @@
       transform: scale(1) rotateZ(360deg);
     }
   }
-  #sb_top {
-  display: initial;
-  }
   @media screen and (max-width: 959px) {
+    #sb_top {
+    display: initial;
+    }
     #shopToolBar {
     display: none;
     }
