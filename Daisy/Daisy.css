@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 /*HORSE STABLES*/
-.ul__Lady_Violet,.ul__Grooni,.ul__Starrymoon,.ul__Rocking,.ul__Neighbility,.ul__JollyJumper,
-.ul__Twinklepaws,.ul__Neighbel,.ul__SprinkleBiscuit,.ul__Theya,.ul__Phaion,.ul__PinkHorse{
-    background-image: url(https://i.postimg.cc/02fHkQ7m/stableframe.png);
+.ul__Lady_Violet,.ul__Grooni,.ul__Rocking,.ul__Neighbility,.ul__JollyJumper,
+.ul__Twinklepaws,.ul__Neighbel,.ul__SprinkleBiscuit,.ul__Theya,.ul__Phaion,.ul__PinkHorse, .ul__Scarletta, .ul__Moonbird{
+    background-image: url(https://i.postimg.cc/V645Jf4F/stableframerounded.png);
     background-size: 100% 83%;
     background-repeat: no-repeat;
     width: 100px;
 }
-.ul__Lady_Violet img,.ul__Grooni img,.ul__Starrymoon img,.ul__Rocking img,.ul__Neighbility img,.ul__JollyJumper img,
-.ul__Twinklepaws img,.ul__Neighbel img,.ul__SprinkleBiscuit img,.ul__Theya img,.ul__Phaion img,.ul__PinkHorse img{
+.ul__Lady_Violet img,.ul__Grooni img,.ul__Rocking img,.ul__Neighbility img,.ul__JollyJumper img,
+.ul__Twinklepaws img,.ul__Neighbel img,.ul__SprinkleBiscuit img,.ul__Theya img,.ul__Phaion img,.ul__PinkHorse img, .ul__Scarletta img, .ul__Moonbird img{
     margin-top: 15px;
     border: none;
     width: 75px
 }
-.ul__Lady_Violet .ul--petname,.ul__Grooni .ul--petname,.ul__Starrymoon .ul--petname,.ul__Rocking .ul--petname,.ul__Neighbility .ul--petname,.ul__JollyJumper .ul--petname,
-.ul__Twinklepaws .ul--petname,.ul__Neighbel .ul--petname,.ul__SprinkleBiscuit .ul--petname,.ul__Theya .ul--petname,.ul__Phaion .ul--petname,.ul__PinkHorse .ul--petname{
+.ul__Lady_Violet .ul--petname,.ul__Grooni .ul--petname,.ul__Rocking .ul--petname,.ul__Neighbility .ul--petname,.ul__JollyJumper .ul--petname,
+.ul__Twinklepaws .ul--petname,.ul__Neighbel .ul--petname,.ul__SprinkleBiscuit .ul--petname,.ul__Theya .ul--petname,.ul__Phaion .ul--petname,.ul__PinkHorse .ul--petname,
+.ul__Scarletta .ul--petname, .ul__Moonbird .ul--petname{
     padding-top: 15px;
     background-image: url(https://i.postimg.cc/1RBmgL3G/sign.png);
     background-size: 100% 60%;
@@ -25,8 +26,9 @@
     padding-right: 10px;
     color: white !important;
 }
-.ul__Lady_Violet img:hover,.ul__Grooni img:hover,.ul__Starrymoon img:hover,.ul__Rocking img:hover,.ul__Neighbility img:hover,.ul__JollyJumper img:hover,
-.ul__Twinklepaws img:hover,.ul__Neighbel img:hover,.ul__SprinkleBiscuit img:hover,.ul__Theya img:hover,.ul__Phaion img:hover,.ul__PinkHorse img:hover{
+.ul__Lady_Violet img:hover,.ul__Grooni img:hover,.ul__Rocking img:hover,.ul__Neighbility img:hover,.ul__JollyJumper img:hover,
+.ul__Twinklepaws img:hover,.ul__Neighbel img:hover,.ul__SprinkleBiscuit img:hover,.ul__Theya img:hover,.ul__Phaion img:hover,.ul__PinkHorse img:hover,
+.ul__Scarletta img:hover, .ul__Moonbird img:hover{
     border: none;
     transform: scale(90%)
 }
