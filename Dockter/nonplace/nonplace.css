@@ -5,7 +5,7 @@
 display: none;
 }
 #sb_top {
-background-image: url('https://i.postimg.cc/kgWP6GwP/topbar2.png');
+background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/Dockter/nonplace/topbar2.png);
 border: none;
 }
 #top-bar-info {
@@ -22,7 +22,7 @@ a.sb-custom-css, a.sb-custom-css:visited, a#user-info-username, a#user-info-user
 }
 #sb_createpet, #sb_petcentral, #sb_explore, #sb_games, #sb_neomail, #sb_shops,
 #sb_boards, #sb_news, #sb_stuff, #sb_help, #sb_login, #sb_logout {
-background-image: url("https://i.postimg.cc/tghRjD8P/sidenav2.png");
+background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/Dockter/nonplace/sidenav2.png);
 width: 130px;
 }
 #sb_side {
@@ -33,7 +33,7 @@ box-shadow: none;
 font-family: times new roman;
 }
 img#side-banner-img {
-    content: url(https://i.postimg.cc/LsxM37PH/istockphoto-1399588872-612x612.jpg);
+    content: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/Dockter/nonplace/istockphoto-1399588872-612x612.jpg);
     border-radius: 0px;
     border-width: 1px;
 }
@@ -47,7 +47,7 @@ span.nst {
 }
 /*STYLE*/
 body {
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3701a75b-9748-465e-b71a-4c1371bbb465/d4doj23-4f1bdccc-be71-49fa-b97d-4cd58395e19f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3MDFhNzViLTk3NDgtNDY1ZS1iNzFhLTRjMTM3MWJiYjQ2NVwvZDRkb2oyMy00ZjFiZGNjYy1iZTcxLTQ5ZmEtYjk3ZC00Y2Q1ODM5NWUxOWYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-WhJ22cn3b0kbOzpWzn216BbIxfcU8W7wHp9J3nkClY);
+    background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/Dockter/nonplace/static.gif);
     color: white;
 }
 a {
@@ -225,7 +225,7 @@ padding-right: 0.35em
     display: none
 }
 body:after {
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3701a75b-9748-465e-b71a-4c1371bbb465/d4doj23-4f1bdccc-be71-49fa-b97d-4cd58395e19f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3MDFhNzViLTk3NDgtNDY1ZS1iNzFhLTRjMTM3MWJiYjQ2NVwvZDRkb2oyMy00ZjFiZGNjYy1iZTcxLTQ5ZmEtYjk3ZC00Y2Q1ODM5NWUxOWYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-WhJ22cn3b0kbOzpWzn216BbIxfcU8W7wHp9J3nkClY);
+    background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/Dockter/nonplace/static.gif);
     background-size: cover;
     background-position: top left;
     content: "";
