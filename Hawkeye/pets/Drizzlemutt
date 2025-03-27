@@ -1,12 +1,12 @@
 
             /*STYLE*/
 body {
-    background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/backgrounds/noctus.jpg)
+    background-image: url(https://i.postimg.cc/br6RGWGV/lu20tsf9akn31.png)
     }
 #nav a, #nav a:visited, #mobilenav a, #mobilenav a:visited {
-    background: #fff;
-    color: #182158;
-    border: 3px solid #18c1ca;
+    background: #faf6f2;
+    color: #8b4017;
+    border: 2px solid #8b4017;
     font-size: 12pt
     }
 #petLookupContent {
@@ -19,24 +19,21 @@ body {
 .pet--header {
     font-size: 18pt;
     margin-top: 0;
-    background-color: #393a98;
+    background-color: #cfb4a3;
     color: white;
     text-shadow: 1px 1px 1px #000
     }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 10pt
     }
-.pet--statsheader, #bio h2 {
+.pet--statsheader, #bio h2, #testimonials h2 {
     font-size: 14pt;
-    color: white;
-    text-shadow: 1px 1px 1px #000;
-    background-color: #735d9d
+    color: #faf6f2;
+    background-color: #7b3f00;
+    border-top: 3px solid #b20d0f
     }
-#testimonials h2 {
-    font-size: 14pt;
-    color: white;
-    text-shadow: 1px 1px 1px #000;
-    background-color: #fe845f
+.pet--color {
+    text-shadow: 1px 1px 1px #faf6f2;
 }
 #petStats, #testimonials, #bio {
     font-size: 11pt
@@ -45,7 +42,7 @@ body {
     display: none
     }
 /*HIDE SHIT*/
-hr, .pet--petpetage, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks, #mobilenav, #aio_sidebar_placeholder, #petChallenge {
+hr, .pet--petpetage, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks, #mobilenav a, #aio_sidebar_placeholder, #petChallenge {
     display: none
     }
 .pet--no-trade-text {
@@ -106,7 +103,7 @@ body {
 #nav a, #nav a:visited, #mobilenav a, #mobilenav a:visited {
     padding-left: 0.25em;
     padding-right: 0.25em;
-    border-radius: 0.5em
+    border-radius: 0.25em
     }
 #nav a:hover, #mobilenav a:hover {
     scale: 1.15
