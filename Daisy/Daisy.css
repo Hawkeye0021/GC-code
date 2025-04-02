@@ -1,37 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-/*HORSE STABLES*/
-.ul__Lady_Violet,.ul__Grooni,.ul__Rocking,.ul__Neighbility,.ul__JollyJumper,
-.ul__Twinklepaws,.ul__Neighbel,.ul__SprinkleBiscuit,.ul__Theya,.ul__Phaion,.ul__PinkHorse, .ul__Scarletta, .ul__Moonbird{
-    background-image: url(https://i.postimg.cc/V645Jf4F/stableframerounded.png);
-    background-size: 100% 83%;
-    background-repeat: no-repeat;
-    width: 100px;
-}
-.ul__Lady_Violet img,.ul__Grooni img,.ul__Rocking img,.ul__Neighbility img,.ul__JollyJumper img,
-.ul__Twinklepaws img,.ul__Neighbel img,.ul__SprinkleBiscuit img,.ul__Theya img,.ul__Phaion img,.ul__PinkHorse img, .ul__Scarletta img, .ul__Moonbird img{
-    margin-top: 15px;
-    border: none;
-    width: 75px
-}
-.ul__Lady_Violet .ul--petname,.ul__Grooni .ul--petname,.ul__Rocking .ul--petname,.ul__Neighbility .ul--petname,.ul__JollyJumper .ul--petname,
-.ul__Twinklepaws .ul--petname,.ul__Neighbel .ul--petname,.ul__SprinkleBiscuit .ul--petname,.ul__Theya .ul--petname,.ul__Phaion .ul--petname,.ul__PinkHorse .ul--petname,
-.ul__Scarletta .ul--petname, .ul__Moonbird .ul--petname{
-    padding-top: 15px;
-    background-image: url(https://i.postimg.cc/1RBmgL3G/sign.png);
-    background-size: 100% 60%;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    width: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white !important;
-}
-.ul__Lady_Violet img:hover,.ul__Grooni img:hover,.ul__Rocking img:hover,.ul__Neighbility img:hover,.ul__JollyJumper img:hover,
-.ul__Twinklepaws img:hover,.ul__Neighbel img:hover,.ul__SprinkleBiscuit img:hover,.ul__Theya img:hover,.ul__Phaion img:hover,.ul__PinkHorse img:hover,
-.ul__Scarletta img:hover, .ul__Moonbird img:hover{
-    border: none;
-    transform: scale(90%)
-}
+
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 /*CATEGORIES*/
 /*INSERTS FIRST CATEGORY*/
 .petlist__before {
@@ -44,38 +12,158 @@
 }
 /*CATEGORY TITLE*/
 .petlist__before::after {
-    content: "- babies -";
+    content: "- lil petals -";
     font-size: 18pt;
-    color: black;
+    color: black
 }
 /*INSERTS TEXT AREA*/
-.Jeevo__after {
+.cheezio__after {
     display: inline-flex;
     flex-basis: 100%;
     text-align: center;
     justify-content: center;
     font-weight: bold;
     margin-top: 10px;
-    color: black;
+    color: black
 }
 /*CATEGORY TITLE*/
-.Jeevo__after::after {
-    content: "- more babies -";
+.cheezio__after::after {
+    content: "- to the moon and back -";
     font-size: 18pt
 }
 /*INSERTS TEXT AREA*/
-.HollyHoppy__after {
+.yop5__after {
     display: inline-flex;
     flex-basis: 100%;
     text-align: center;
     justify-content: center;
     font-weight: bold;
     margin-top: 10px;
-    color: black;
+    color: black
 }
 /*CATEGORY TITLE*/
-.HollyHoppy__after::after {
-    content: "- so many babies -";
+.yop5__after::after {
+    content: "- uni stable -";
+    font-size: 18pt
+}
+/*INSERTS TEXT AREA*/
+.Phaion__after {
+    display: inline-flex;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black
+}
+/*CATEGORY TITLE*/
+.Phaion__after::after {
+    content: "- fabulously pink -";
+    font-size: 18pt
+}
+/*INSERTS TEXT AREA*/
+.Stamper__after {
+    display: inline-flex;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black
+}
+/*CATEGORY TITLE*/
+.Stamper__after::after {
+    content: "- grundos -";
+    font-size: 18pt
+}
+/*INSERTS TEXT AREA*/
+.SallyRose__after {
+    display: inline-flex;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black
+}
+/*CATEGORY TITLE*/
+.SallyRose__after::after {
+    content: "- hopping bunbuns -";
+    font-size: 18pt
+}
+/*INSERTS TEXT AREA*/
+.Funkyfin__after {
+    display: inline-flex;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black
+}
+/*CATEGORY TITLE*/
+.Funkyfin__after::after {
+    content: "- dragon collection -";
+    font-size: 18pt
+}
+/*INSERTS TEXT AREA*/
+.Merrigan__after {
+    display: inline-flex;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black
+}
+/*CATEGORY TITLE*/
+.Merrigan__after::after {
+    content: "- frogstomps -";
+    font-size: 18pt
+}
+/*INSERTS TEXT AREA*/
+.Prinsessia__after {
+    display: inline-flex;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black
+}
+/*CATEGORY TITLE*/
+.Prinsessia__after::after {
+    content: "- mah cuties -";
+    font-size: 18pt
+}
+/*INSERTS TEXT AREA*/
+.AndChocolateMilk__after {
+    display: inline-flex;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black
+}
+/*CATEGORY TITLE*/
+.AndChocolateMilk__after::after {
+    content: "- chias -";
+    font-size: 18pt
+}
+/*INSERTS TEXT AREA*/
+.BeepBloop__after {
+    display: inline-flex;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black
+}
+/*CATEGORY TITLE*/
+.BeepBloop__after::after {
+    content: "- variously beautiful -";
     font-size: 18pt
 }
 /*HIDING*/
@@ -113,11 +201,11 @@ padding-right: 5px;
 border-radius: 5px;
 border-bottom: 3px solid #ffbcdd;
 background-color: #fff;
-box-shadow: 0 0 3px 0 black;
+box-shadow: 0 0 3px 0 black
 }
 #nav a:hover {
 scale: 1.1;
-background-color: #fff;
+background-color: #fff
 }
 /*BASE*/
 body {
@@ -144,13 +232,13 @@ background-color: #a4d22a;
 padding-left: 5px;
 padding-right: 5px;
 border-radius: 30px;
-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1)
 }
 .ul--sectionheader {
     font-family: Chilanka;
     letter-spacing: 0.1em;
     font-size: 24pt;
-    color: black;
+    color: black
 }
 .ul--petsheader {
     text-transform: capitalize
@@ -167,13 +255,13 @@ a:hover, ul--button:hover {
     position: absolute;
     top: 55px;
     width: 635px;
-    justify-content: center;
+    justify-content: center
 }
 .ul--headerlabel {
     display: none
 }
 .ul--username {
-    content: url(https://i.postimg.cc/xdYY6zQm/Daisy.png);
+    content: url(https://i.postimg.cc/xdYY6zQm/Daisy.png)
 }
 #userLookupInfo {
 display: grid;
@@ -185,25 +273,24 @@ padding: 15px;
 color: black;
 background-color: #fff;
 border-radius: 25px;
-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
 margin-top: 5px;
-border-bottom: 5px solid #ffbcdd;
-
+border-bottom: 5px solid #ffbcdd
 }
 #userLookupShield {
-grid-area: shield;
+grid-area: shield
 }
 .ul--shield {
     content: url(https://i.postimg.cc/y82YBFd5/shield-1.png);
-    height: 200px;
+    height: 200px
 }
 #userLookupText {
-grid-area: info;
+grid-area: info
 }
 #userLookupCollections {
 grid-area: collections;
 display: flex;
-flex-direction: row;
+flex-direction: row
 }
 /*Trophies*/
 .ul--sitetrophyimg, .ul--gametrophyimg {
@@ -220,16 +307,16 @@ flex-direction: row;
 flex-wrap: wrap;
 background-color: #fff;
 border-radius: 25px;
-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
 padding-top: 5px;
 margin-top: -5px;
-border-bottom: 5px solid #ffbcdd;
+border-bottom: 5px solid #ffbcdd
 }
 .ul--linktext {
     font-size: 12pt;
     color: black;
     border-radius: 3px;
-    padding: 3px;
+    padding: 3px
 }
 .ul__link {
     display: flex;
@@ -251,7 +338,7 @@ border-bottom: 5px solid #ffbcdd;
     font-size: 12pt;
     color: black;
     border-radius: 3px;
-    padding: 3px;
+    padding: 3px
 }
 .ul__neofriend .ul--linktext::after {
     content: "Neofriend";
@@ -259,7 +346,7 @@ border-bottom: 5px solid #ffbcdd;
     font-size: 12pt;
     color: black;
     border-radius: 3px;
-    padding: 3px;
+    padding: 3px
 }
 .ul__scores .ul--linktext::after {
     content: "Scores";
@@ -267,7 +354,7 @@ border-bottom: 5px solid #ffbcdd;
     font-size: 12pt;
     color: black;
     border-radius: 3px;
-    padding: 3px;
+    padding: 3px
 }
 /*PETS*/
 #userLookupPets {
@@ -281,14 +368,15 @@ border-bottom: 5px solid #ffbcdd
 }
 .ul--petname, .ul--petname:visited, .ul--petname:hover {
     color: #000;
-    margin-top: 9px
+    margin-top: -5px
 }
 .ul--petimg {
     margin-bottom: 5px;
     border-width: 2px;
+    border-color: #fbb811;
+    border-style: solid;
     border-radius: 15px;
-    width: 100px;
-    padding-top: 16px
+    width: 145px
 }
 .ul--petimg:hover {
     border: solid 2px #ffbcdd;
@@ -316,13 +404,4 @@ color: black
 /*EXTRAS*/
 #userReportBlock {
 margin-top: -10px
-}
-.ul__pet {
-    background-image: url(https://i.postimg.cc/02fHkQ7m/stableframe.png);
-    background-size: 100% 90%;
-    background-repeat: no-repeat;
-    width: 135px;
-    height: 145px;
-    display: flex;
-    flex-direction: column;
 }
