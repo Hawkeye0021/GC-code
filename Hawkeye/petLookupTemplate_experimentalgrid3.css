@@ -32,6 +32,9 @@ box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75)
     text-shadow: 1px 1px 1px #000;
     background-color: #1741af;
 }
+.pet--petpetname {
+    font-size: 16pt;
+}
 #petStats, #testimonials, #bio {
 font-size: 11pt
 }
@@ -39,7 +42,7 @@ font-size: 11pt
 display: none
 }
 /*HIDE SHIT*/
-hr, .pet--petpetage, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks, #mobilenav, #aio_sidebar_placeholder, #petChallenge {
+hr, .pet--petpetage, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks, #mobilenav a, #aio_sidebar_placeholder, #petChallenge {
     display: none
 }
 .pet--no-trade-text {
@@ -100,7 +103,7 @@ padding-right: 0.25em;
 border-radius: 0.25em
 }
 #nav a:hover, #mobilenav a:hover {
-scale: 1.15
+scale: .9
 }
 .pet--header {
     grid-area: header;

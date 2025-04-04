@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+@import url(https://fonts.googleapis.com/css2?family=Piedra&display=swap);
 /*STYLE*/
 body {
-    background-image: url(https://i.postimg.cc/br6RGWGV/lu20tsf9akn31.png)
+    background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/backgrounds/CosyGamer.jpg)
 }
 .pet--image {
     content: url(https://grundoscafe.b-cdn.net/pets/angry/chomby_darigan.gif)
@@ -11,30 +12,30 @@ background: #6b4075;
 color: white;
 border: 3px solid #6b4075;
 font-size: 12pt;
-box-shadow: 2px 2px 0px 0px #4b799a
+box-shadow: 2px 2px 0 0 #4b799a
 }
 #petLookupContent {
 border-radius: 0.75em;
 box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
-font-family: seriff;
+font-family: seriff
 }
 .pet--name {
     font-size: 58pt;
-    margin-right: .1em;
-    margin-bottom: -.2em;
+    margin-right: 0.1em;
+    margin-bottom: -0.2em;
     display: block;
     font-family: piedra;
     font-weight: lighter;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     font-style: italic;
-    text-shadow: 3px 3px 0px #9a5ca9
+    text-shadow: 3px 3px 0 #9a5ca9
 }
 .pet--header {
     font-size: 20pt;
     margin-top: 0;
     background-color: #315574;
     color: white;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px #000
 }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 10pt
@@ -53,19 +54,23 @@ font-family: seriff;
 }
 .pet--petpetname {
     font-family: piedra;
-    text-shadow: 1px 1px 0px black
+    text-shadow: 1px 1px 0 black
 }
 #petStats, #testimonials, #bio {
 font-size: 13pt
 }
+#petStats {
+line-height: 1.5em
+}
+#bio p{
+font-size: 11pt;
+line-height: 1.35em;
+}
 #petStats a, .pet--gendercolor, .pet--hpcolor {
-color: #6b4075;
+color: #6b4075
 }
 #petStats a:hover {
-color: #bf99d0;
-}
-#petTraits {
-display: none
+color: #bf99d0
 }
 /*HIDE SHIT*/
 hr, .pet--petpetage, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks, #mobilenav a, #aio_sidebar_placeholder, #petChallenge {
@@ -139,7 +144,7 @@ scale: 1.15
     border-radius: 0.35em 0.35em 0 0;
     margin-top: 0;
     margin-bottom: 0.25em;
-    padding-bottom: .25em;
+    padding-bottom: 0.25em;
     border-bottom: 1px black
 }
 #petImage {
@@ -175,10 +180,10 @@ margin-left: 60%
 .pet--petpetname {
     font-size: 20pt;
     font-weight: lighter;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     font-style: italic;
     display: block;
-    color: #6b4075;
+    color: #6b4075
 }
 #petStats {
 grid-area: stats;
@@ -213,10 +218,18 @@ justify-content: center
 width: 100%;
 border-radius: 0.5em 0.5em 0 0;
 box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.75);
-margin: 0;
+margin: 0
 }
 #testimonials p {
 width: 30%
+}
+#bio p#gg {
+font-size: 9pt;
+}
+#bio img {
+width: 100%;
+border-radius: .25em;
+border: 2px solid black;
 }
 #testimonials, #bio {
 border-radius: 0.35em;
