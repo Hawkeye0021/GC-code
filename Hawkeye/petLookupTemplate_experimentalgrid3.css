@@ -73,8 +73,14 @@ body {
 }
 #petLookupContent {
 display: grid;
-grid-template-areas: "header header" "pet p2img" "p2header p2header" "p2desc p2desc" "stats  bio" "testimonials testimonials";
-grid-template-columns: 50%;
+grid-template-areas:
+"col header header col"
+"col pet p2img col"
+"col p2header p2header col"
+"col p2desc p2desc col"
+"col stats  bio col"
+"col testimonials testimonials col";
+grid-template-columns:5% 45% 45% 5%;
 grid-template-rows: auto auto auto auto auto auto auto;
 width: fit-content;
 max-width: 44em;
