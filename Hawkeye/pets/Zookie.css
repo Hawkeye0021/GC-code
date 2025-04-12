@@ -1,0 +1,182 @@
+
+            @import url(https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Nothing+You+Could+Do&family=Shadows+Into+Light&display=swap);
+/*nav positioning*/
+#nav {
+    font-size: 12pt;
+    position: absolute;
+    top: -60px;
+    height: fit-content;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    gap: 1em
+    }
+/*nav styling*/
+#nav a, #nav a:visited {
+    background: #fff;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 3px;
+    color: black;
+    border: 3px solid white
+    }
+#nav a:hover {
+    transform: scale(1.15)
+    }
+/*hiding things*/
+hr, .pet--statsheader, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks {
+    display: none
+    }
+/*background*/
+body {
+    background-image: url(https://i.postimg.cc/C1BdgwdJ/zookie.jpg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    color: black
+    }
+a, a:visited {
+    color: green
+    }
+a:hover {
+    color: teal
+    }
+/*centering*/
+#container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100dvw;
+    min-height: 100dvh;
+    height: fit-content
+    }
+#page_content {
+    display: flex;
+    margin: auto;
+    width: 100vw;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding-top: 30px
+    }
+/*title*/
+.pet--name {
+    display: block;
+    font-size: 72pt;
+    color: green;
+    font-family: caveat
+    }
+.pet--header {
+    font-size: 14pt;
+    margin-top: -15px
+    }
+/*container*/
+#petLookupContent {
+    width: 700px;
+    margin: auto;
+    position: relative;
+    background-image: url(https://i.postimg.cc/NMttFY0Q/notepad.jpg);
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
+    border-top: 10px ridge #3a7e2c;
+    font-family: nothing you could do;
+    letter-spacing: 0.1em
+    }
+/*info*/
+#petTop {
+    mix-blend-mode: multiply
+    }
+#petImage {
+    width: 100%
+    }
+.pet--image {
+    width: 200px;
+    content: url(https://i.postimg.cc/Fzmr6Fx8/Zookie2.png)
+    }
+#petInfo {
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    gap: 0
+    }
+#petStats {
+    background-color: transparent;
+    text-align: left;
+    font-size: 13pt
+    }
+#petTraits {
+    font-size: 10pt
+    }
+/*extras*/
+#petPetpet {
+    position: absolute;
+    width: 47%;
+    top: 345px
+    }
+.pet--petpetimg {
+    width: 80px;
+    height: 80px;
+    mix-blend-mode: multiply
+    }
+.pet--petpetheader, .pet--petpetdesc {
+    font-size: 10pt
+    }
+.pet--petpetage {
+    display: none
+    }
+.pet--petpetname {
+    display: block;
+    font-size: 22pt
+    }
+.pet--no-trade-alert {
+    position: absolute;
+    background-color: transparent;
+    color: red;
+    bottom: -35px;
+    font-weight: bold;
+    text-shadow: -1px 1px 2px black;
+    font-family: arial
+    }
+.pet--no-trade-icon {
+    display: none
+    }
+.pet--gendercolor {
+    color: green
+    }
+/*custom content*/
+#petDescription {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 15px;
+    font-size: 15pt
+    }
+#petDescription h2 {
+    line-height: 0.5em
+    }
+#testimonials, #bio {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000;
+    border-radius: 5px;
+    width: 93%;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px
+    }
+#bio {
+    justify-self: right
+    }
+#aio_sidebar {
+    display: none
+    }
+#aio_sidebar {
+    display: none
+    }
+            #aio_sidebar { display: none; }
