@@ -1,33 +1,36 @@
 
             /*STYLE*/
 body {
-    background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/backgrounds/CosyGamer.jpg)
+    background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/backgrounds/Underwater.jpg)
     }
 .pet--image {
-    content: url(https://i.postimg.cc/FRfhLx6J/Gablumawoo.png)
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/shoyru_maraquan.gif)
 }
 #nav a, #nav a:visited, #mobilenav a5555, #mobilenav a:visited {
-    background: #dc659d;
+    background: #c42b86;
     color: white;
-    border: 3px solid #dc659d;
-    font-size: 12pt;
-    text-shadow: 1px 1px 1px black
+    border: 3px solid #c42b86;
+    font-size: 12pt
     }
 #petLookupContent {
     border-radius: 0.75em;
     box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75)
     }
 .pet--name {
-    font-size: 36pt;
-    display: block;
+    font-size: 36pt
     }
+.pet--color {
+    color: #a3d50b;
+}
+.pet--color:hover {
+    color: #c8f53d;
+}
 .pet--header {
     font-size: 18pt;
     margin-top: 0;
-    background-color: #76a3ed;
+    background: linear-gradient(to top, #1573af, #54c2e3, #bae9f9);
     color: white;
     text-shadow: 1px 1px 1px #000;
-    border-top: 3px solid #cfaae8
     }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 10pt
@@ -36,13 +39,12 @@ body {
     font-size: 14pt;
     color: white;
     text-shadow: 1px 1px 1px #000;
-    background-color: #76a3ed;
-    border-top: 3px solid #cfaae8
+    background-color: #0fab4f;
     }
 .pet--petpetname {
     font-size: 16pt;
-    color: #ff6c6c;
-    text-shadow: 1px 1px 0px black;
+    color: #12fbb5;
+    text-shadow: 1px 1px 1px black
     }
 #petStats, #testimonials, #bio {
     font-size: 11pt
@@ -50,24 +52,6 @@ body {
 #petTraits {
     display: none
     }
-.pet--color {
-    color: #cfaae8;
-}
-.pet--color:hover {
-    color: #eba7c7
-}
-#petStats a {
-    color: #b174d9;
-}
-#petStats a:hover {
-    color: #dc659d
-}
-.pet--gendercolor {
-    color: #b174d9
-}
-.pet--hpcolor {
-    color: #dc659d;
-}
 /*HIDE SHIT*/
 hr, .pet--petpetage, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks, #mobilenav a, #aio_sidebar_placeholder, #petChallenge {
     display: none
@@ -294,3 +278,4 @@ body {
         font-size: 16pt
         }
     }
+            #aio_sidebar { display: none; }
