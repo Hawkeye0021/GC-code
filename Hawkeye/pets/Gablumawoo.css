@@ -1,45 +1,76 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Delius&family=Preahvihear&display=swap');
 /*STYLE*/
 body {
     background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/backgrounds/CosyGamer.jpg)
 }
+.pet--image {
+    content: url(https://i.postimg.cc/FRfhLx6J/Gablumawoo.png)
+}
 #nav a, #nav a:visited, #mobilenav a5555, #mobilenav a:visited {
-background: #fff;
-color: black;
-border: 3px solid white;
-font-size: 12pt
+background: #dc659d;
+color: white;
+border: 3px solid #dc659d;
+font-size: 12pt;
+text-shadow: 1px 1px 1px black
 }
 #petLookupContent {
 border-radius: 0.75em;
-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75)
+box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
+font-family: delius
 }
 .pet--name {
-    font-size: 36pt
+    font-size: 44pt;
+    display: block;
+    font-family: dekko;
+    line-height: 1em;
 }
 .pet--header {
     font-size: 18pt;
     margin-top: 0;
-    background-color: #1741af;
+    background-color: #76a3ed;
     color: white;
-    text-shadow: 1px 1px 1px #000
+    text-shadow: 1px 1px 1px #000;
+    border-top: 3px solid #cfaae8;
+    line-height: 1em;
 }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 10pt
 }
 .pet--statsheader, #bio h2, #testimonials h2 {
-    font-size: 14pt;
+    font-size: 15pt;
     color: white;
     text-shadow: 1px 1px 1px #000;
-    background-color: #1741af;
+    background-color: #76a3ed;
+    border-top: 3px solid #cfaae8
 }
 .pet--petpetname {
     font-size: 16pt;
+    color: #ff6c6c;
+    text-shadow: 1px 1px 0 black
 }
 #petStats, #testimonials, #bio {
 font-size: 11pt
 }
 #petTraits {
 display: none
+}
+.pet--color {
+    color: #cfaae8
+}
+.pet--color:hover {
+    color: #eba7c7
+}
+#petStats a {
+color: #b174d9
+}
+#petStats a:hover {
+color: #dc659d
+}
+.pet--gendercolor {
+    color: #b174d9
+}
+.pet--hpcolor {
+    color: #dc659d
 }
 /*HIDE SHIT*/
 hr, .pet--petpetage, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks, #mobilenav a, #aio_sidebar_placeholder, #petChallenge {
@@ -73,13 +104,7 @@ body {
 }
 #petLookupContent {
 display: grid;
-grid-template-areas:
-"header header"
-"pet p2img"
-"p2header p2header"
-"p2desc p2desc"
-"stats  bio"
-"testimonials testimonials";
+grid-template-areas: "header header" "pet p2img" "p2header p2header" "p2desc p2desc" "stats  bio" "testimonials testimonials";
 grid-template-columns: 50%;
 grid-template-rows: auto auto auto auto auto auto auto;
 width: fit-content;
@@ -109,14 +134,16 @@ padding-right: 0.25em;
 border-radius: 0.25em
 }
 #nav a:hover, #mobilenav a:hover {
-scale: .9
+scale: 0.9
 }
 .pet--header {
     grid-area: header;
     border-radius: 0.35em 0.35em 0 0;
     margin-top: 0;
     margin-bottom: 0.25em;
-    border-bottom: 1px black
+    border-bottom: 1px black;
+    padding-bottom: .25em;
+    padding-top: .15em;
 }
 #petImage {
 grid-area: pet;
@@ -134,7 +161,7 @@ margin-left: 60%
     font-size: 0
 }
 .pet--petpetheader:after {
-    content: "and their petpet,";
+    content: "and his petpet,";
     font-size: 10pt
 }
 .pet--petpetdesc {
@@ -221,13 +248,13 @@ padding-right: 0.35em
     gap: 0;
     width: 100%;
     justify-content: center;
-    gap: 1em;
+    gap: 1em
     }
     #mobilenav a {
-    font-size: 30pt;
+    font-size: 30pt
     }
     #container {
-    min-height: fit-content;
+    min-height: fit-content
     }
     #page_content {
     margin-bottom: 2em;
@@ -243,28 +270,28 @@ padding-right: 0.35em
     font-size: 20pt
     }
     .pet--statsheader, #bio h2, #testimonials h2 {
-        font-size: 24pt;
+        font-size: 24pt
     }
     .pet--name {
         font-size: 60pt;
-        display: block;
+        display: block
     }
     .pet--header {
         margin-top: -1em;
         font-size: 24pt
     }
     #petImage {
-    margin-left: 50%;
+    margin-left: 50%
     }
     .pet--petpetimg {
-        margin-left: 20%;
+        margin-left: 20%
     }
     .pet--no-trade-alert {
         bottom: -2em;
         font-size: 24pt
     }
     .pet--petpetheader:before, .pet--petpetheader:after, .pet--petpetdesc {
-        font-size: 20pt;
+        font-size: 20pt
     }
     .pet--petpetname {
         font-size: 24pt

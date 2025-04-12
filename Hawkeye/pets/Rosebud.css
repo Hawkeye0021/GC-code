@@ -1,45 +1,60 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Delius&family=Playwrite+US+Trad:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 /*STYLE*/
 body {
-    background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/backgrounds/CosyGamer.jpg)
+    background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/backgrounds/Gladiolus2.jpg)
 }
-#nav a, #nav a:visited, #mobilenav a5555, #mobilenav a:visited {
-background: #fff;
-color: black;
-border: 3px solid white;
-font-size: 12pt
+#nav a, #nav a:visited, #mobilenav a, #mobilenav a:visited {
+background: #7d77e5;
+color: white;
+border: 3px solid #7d77e5;
+font-size: 12pt;
+    box-shadow: 1px 1px 3px 0px black;
 }
 #petLookupContent {
 border-radius: 0.75em;
-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75)
+box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
+    font-family: delius
 }
 .pet--name {
-    font-size: 36pt
+    font-size: 30pt;
+    font-family: "Playwrite US Trad";
 }
 .pet--header {
-    font-size: 18pt;
+    font-size: 20pt;
     margin-top: 0;
-    background-color: #1741af;
+    background-color: #7d77e5;
     color: white;
-    text-shadow: 1px 1px 1px #000
+    text-shadow: 1px 1px 1px #000;
+    font-family: comic neue;
 }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 10pt
 }
 .pet--statsheader, #bio h2, #testimonials h2 {
-    font-size: 14pt;
+    font-size: 16pt;
     color: white;
     text-shadow: 1px 1px 1px #000;
-    background-color: #1741af;
+    background-color: #ffa3b1;
 }
 .pet--petpetname {
-    font-size: 16pt;
+    font-size: 20pt;
+    font-weight: lighter;
+    font-family: limelight;
+    color: lightgray;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 2px #000, 1px -1px 2px #000
 }
 #petStats, #testimonials, #bio {
 font-size: 11pt
 }
 #petTraits {
 display: none
+}
+.pet--color {
+    color: #ffccd3
+}
+.pet--color:hover {
+    color: #d74788
 }
 /*HIDE SHIT*/
 hr, .pet--petpetage, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks, #mobilenav a, #aio_sidebar_placeholder, #petChallenge {
@@ -134,7 +149,7 @@ margin-left: 60%
     font-size: 0
 }
 .pet--petpetheader:after {
-    content: "and their petpet,";
+    content: "and her petpet,";
     font-size: 10pt
 }
 .pet--petpetdesc {
@@ -153,7 +168,8 @@ grid-area: stats;
 background: white;
 border-radius: 0.35em;
 margin: 0.25em 0.25em 0.25em 0.5em;
-padding: 0 0.35em 0 0.35em
+padding: 0 0.35em 0 0.35em;
+    font-size: 12pt;
 }
 #desc {
 grid-area: desc;
@@ -166,7 +182,8 @@ margin-top: 1em
 #bio {
 grid-area: bio;
 margin: 0.25em 0.5em 0.25em 0.25em;
-justify-content: center
+justify-content: center;
+    font-size: 12pt;
 }
 #testimonials {
 grid-area: testimonials;
@@ -175,7 +192,8 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 column-gap: 1em;
-justify-content: center
+justify-content: center;
+    font-size: 12pt;
 }
 #testimonials h2, #bio h2 {
 width: 100%;
