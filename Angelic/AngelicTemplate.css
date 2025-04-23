@@ -9,14 +9,14 @@ display: none
 }
 /*SET TO flex TO SHOW TESTIMONIALS SECTIONS*/
 #testimonials {
-    display: none;
+display: none;
 }
 /*BORDERS*/
 #petLookupContent {
 border-radius: 0.75em;
 }
 #nav a, #nav a:visited, #mobilenav a5555, #mobilenav a:visited {
-    border-radius: .25em; /*using em instead of px makes it adapt to mobile*/
+border-radius: .25em; /*using em instead of px makes it adapt to mobile*/
 }
 .pet--header {
     border-radius: 0.35em 0.35em 0 0;/*numbers go clockwise starting at top-left*/
@@ -29,7 +29,7 @@ border-radius: 0.75em;
 }
 /*COLORS*/
 #nav a, #nav a:visited, #mobilenav a5555, #mobilenav a:visited {
-    background-color: white;
+background-color: white;
 }
 .pet--header {
     background-color: blueviolet
@@ -38,19 +38,19 @@ border-radius: 0.75em;
     background-color: blueviolet
 }
 #bio h2 {
-    background-color: blueviolet
+background-color: blueviolet
 }
 #testimonials h2 {
-    background-color: blueviolet
+background-color: blueviolet
 }
 .pet--no-trade-text {
     background-color: rgba(0, 0, 0, 0.75);
 }
 /*FONTS*/
 #nav a, #nav a:visited, #mobilenav a5555, #mobilenav a:visited {
-    font-size: 12pt;
-    font-family: unset;
-    color: black;
+font-size: 12pt;
+font-family: unset;
+color: black;
 }
 .pet--header {
     font-size: 18pt;
@@ -83,9 +83,9 @@ border-radius: 0.75em;
     text-shadow: 1px 1px 1px black;
 }
 #petStats, #testimonials, #bio {
-    font-size: 11pt;
-    font-family: unset;
-    color: black;
+font-size: 11pt;
+font-family: unset;
+color: black;
 }
 .pet--no-trade-alert {
     font-size: 12pt;
@@ -155,7 +155,7 @@ gap: 1em
 }
 #nav a, #nav a:visited, #mobilenav a, #mobilenav a:visited {
 padding: .25em;
-    padding-left: 0.5em;
+padding-left: 0.5em;
 padding-right: 0.5em;
 }
 #nav a:hover, #mobilenav a:hover {
@@ -170,8 +170,8 @@ scale: .9
 grid-area: pet;
 }
 #petPetpet {
-    grid-area: p2img;
-    align-self: center;
+grid-area: p2img;
+align-self: center;
 }
 .pet--image {
     width: 90%;
@@ -286,17 +286,11 @@ padding-right: 0.35em
         margin-top: -1em;
         font-size: 24pt
     }
-    #petImage {
-    margin-left: 50%;
-    }
-    .pet--petpetimg {
-        margin-left: 20%;
-    }
     .pet--no-trade-alert {
         bottom: -2em;
         font-size: 24pt
     }
-    .pet--petpetheader:before, .pet--petpetheader:after, .pet--petpetdesc {
+    .pet--petpetheader, .pet--petpetdesc {
         font-size: 20pt;
     }
     .pet--petpetname {
