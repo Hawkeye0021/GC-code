@@ -1,0 +1,166 @@
+
+#n, #m, hr, .tt, .hdr, #mb, .h, .banner, .sb, #bottomban, .loggedIn, .loggedIn font, .loggedIn b, #sb_side, #sb_edge, #sb_top, #page_footer, h2, #aio_sidebar {
+    display: none !important
+    }
+body {
+    background: url(https://i.imgur.com/9iEPQmQ.png);
+    background-position: center;
+    cursor: crosshair
+    }
+.ul--stampsimg {
+    content: url(https://hotemoji.com/images/dl/u/herb-emoji-by-google.png)
+}
+#userLookupContent {
+    background: #fff;
+    padding: 35px;
+    width: 580px !important;
+    height: auto;
+    border-width: 0 10px 0 10px;
+    border-style: solid;
+    border-color: #d8c490;
+    background-color: #e3e7cc;
+    }
+#page_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: -40px;
+    width: fit-content;
+    height: auto
+    }
+#userLookupShield {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+.ul--shield {
+    content: url(https://archives.bulbagarden.net/media/upload/3/34/Box_XD_286_s.png);
+}
+#userLookupShield:hover {
+ transform: rotate(720deg);
+}
+#userLookupInfo {
+    margin-top: 4em;
+    grid-template-areas: "text shield" "text collections";
+    grid-template-columns: 65% 35%;
+    border-top: 3px solid #d8c490;
+    padding: 1em 0 1em 0;
+}
+#userLookupText {
+    border-width: 5px 0px 5px 0px;
+    border-radius: 2em .5em 2em .5em;
+    border-style: solid;
+    border-color: #88ab34;
+    background-color: rgba(255,255,255,.75);
+    box-shadow: 0px 0px 5px 2px #88ab34;
+    padding: 1em;
+}
+#userLookupCollections {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+}
+#userLookupLinks {
+    border-bottom: 3px solid #d8c490;
+    padding-bottom: 1em;
+}
+#top {
+    width: 100%;
+    height: 55px;
+    top: 0;
+    left: 0
+    }
+#nav a {
+    padding: 10px;
+    color: #6f9954 !important;
+    margin: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font: normal 12pt courier !important;
+    border: 0;
+    display: inline-block;
+    transition: letter-spacing 0.3s ease
+    }
+#nav a:hover {
+    letter-spacing: 4px
+    }
+#banner img {
+    border-radius: 25px
+    }
+#userLookupPets {
+    border-width: 3px 0px 0 3px;
+    border-radius: .5em 2em .5em 2em;;
+    border-style: solid;
+    border-color: #93b82d;
+    background-color: rgba(255,255,255,.75);
+    box-shadow: 2px 2px 5px 0px #93b82d;
+    }
+.ul--petimg {
+    mix-blend-mode: darken
+}
+.ul--sitetrophiesheader, .ul--gametrophiesheader {
+    flex-basis: 100%;
+    margin: 0 25%;
+    margin-bottom: 1em;
+    background-color: #93b82d;
+    color: #fff !important;
+    letter-spacing: 1px;
+    font: normal 12pt courier !important
+    }
+#userLookupSiteTrophies {
+    border-width: 3px 3px 0 0;
+    border-radius: 2em .5em 2em .5em;
+    border-style: solid;
+    border-color: #88ab34;
+    background-color: rgba(255,255,255,.75);
+    box-shadow: -2px 2px 5px 0px #88ab34;
+    padding-bottom: 1em;
+}
+#userLookupGameTrophies {
+    border-width: 3px 0px 0 3px;
+    border-radius: .5em 2em .5em 2em;;
+    border-style: solid;
+    border-color: #88ab34;
+    background-color: rgba(255,255,255,.75);
+    box-shadow: 2px 2px 5px 0px #88ab34;
+    padding-bottom: 1em;
+}
+.ul--sitetrophyimg, .ul--gametrophyimg {
+    mix-blend-mode: darken;
+}
+/*#userLookupSiteTrophies, #userLookupGameTrophies {
+    border-bottom: solid 3px #d8c490;
+    padding-bottom: 1em;
+    margin-bottom: 0;*/
+}
+.ul__pet {
+    overflow-wrap: break-word;
+    width: 10px;
+    height: 103px
+    }
+.cat-header--Neopets {
+    display: none
+    }
+.ul--petsheader {
+    flex-basis: 100%;
+    margin: 0 25%;
+    background-color: #88ab34;
+    color: #fff !important;
+    letter-spacing: 1px;
+    font: normal 12pt courier !important
+    }
+.ul--petsheader strong {
+    color: #fff !important;
+    }
+.ul__Lightfield img {
+    content: url(https://i.imgur.com/zdfnVyf.png);
+    width: 80px;
+    height: auto
+    }
+.ul__Zaff img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/ogrin_darigan.gif)
+    }
