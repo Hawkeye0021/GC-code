@@ -148,7 +148,7 @@ box-shadow: 0px 5px 10px -6px #596a85;
 .ul--neomailimg {
   content: url(https://grundoscafe.b-cdn.net/items/bd_snowflake_wet.gif)
 }
-.ul--neofriendimg {
+input.ul--neofriendimg {
   content: url(https://grundoscafe.b-cdn.net/items/bd_snowflake_poison.gif)
 }
 input.small-image {
