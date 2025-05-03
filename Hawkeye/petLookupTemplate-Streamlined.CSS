@@ -13,7 +13,6 @@ body {
 #petLookupContent {
     border-radius: 0.75em;
     box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
-    filter: brightness(0.9)
     }
 .pet--name {
     font-size: 36pt
