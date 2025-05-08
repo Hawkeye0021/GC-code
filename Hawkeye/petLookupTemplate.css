@@ -213,7 +213,7 @@ padding-right: 0.35em
     #nav {
     display: none
     }
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #mobilenav {

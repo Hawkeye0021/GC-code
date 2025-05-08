@@ -31,19 +31,18 @@ font-family: aref ruqaa
     border-style: double;
     border-color: #6ccec7;
     border-width: 0 0 5px 0;
-    margin: 0 5% 0 5%;
+    margin: 0 5% 0 5%
 }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 10pt
 }
 .pet--statsheader, #bio h2, #testimonials h2 {
     font-size: 14pt;
-    color: black;
+    color: black
 }
 .pet--petpetname {
     font-size: 20pt;
-    font-family: bilbo swash caps;
-
+    font-family: bilbo swash caps
 }
 #petStats, #testimonials, #bio {
 font-size: 13pt
@@ -89,13 +88,7 @@ body {
 }
 #petLookupContent {
 display: grid;
-grid-template-areas:
-"header header"
-"pet p2img"
-"p2header p2header"
-"p2desc p2desc"
-"stats  bio"
-"testimonials testimonials";
+grid-template-areas: "header header" "pet p2img" "p2header p2header" "p2desc p2desc" "stats  bio" "testimonials testimonials";
 grid-template-columns: 50%;
 grid-template-rows: auto auto auto auto auto auto auto;
 width: fit-content;
@@ -109,7 +102,7 @@ gap: 0;
 background: white;
 border-style: double;
 border-color: #6ccec7;
-border-width: 5px;
+border-width: 5px
 }
 #nav, #mobilenav {
 position: absolute;
@@ -128,14 +121,14 @@ padding-right: 0.25em;
 border-radius: 0.25em
 }
 #nav a:hover, #mobilenav a:hover {
-scale: .9
+scale: 0.9
 }
 .pet--header {
     grid-area: header;
     border-radius: 0.35em 0.35em 0 0;
     margin-top: 0;
     margin-bottom: 0.25em;
-    font-family: Bilbo swash caps;
+    font-family: Bilbo swash caps
 }
 #petImage {
 grid-area: pet;
@@ -166,7 +159,7 @@ margin-left: 60%
     margin-bottom: 0.8em;
     border-style: double;
     border-color: #6ccec7;
-    border-width: 5px 0 5px 0;
+    border-width: 5px 0 5px 0
 }
 #petStats {
 grid-area: stats;
@@ -202,7 +195,7 @@ width: 90%;
 border-style: double;
 border-color: #6ccec7;
 border-width: 5px 0 5px 0;
-margin: 0 5% 0 5%;
+margin: 0 5% 0 5%
 }
 #testimonials p {
 width: 30%
@@ -215,7 +208,7 @@ padding-right: 0.35em
 .pet--no-trade-alert {
     position: absolute;
     background-color: transparent;
-    bottom: -2.25em;
+    bottom: -3em;
     font-weight: bold;
     text-shadow: -1px 1px 2px black;
     left: 0;
@@ -232,7 +225,7 @@ padding-right: 0.35em
     #nav {
     display: none
     }
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #mobilenav {
@@ -242,13 +235,13 @@ padding-right: 0.35em
     gap: 0;
     width: 100%;
     justify-content: center;
-    gap: 1em;
+    gap: 1em
     }
     #mobilenav a {
-    font-size: 30pt;
+    font-size: 30pt
     }
     #container {
-    min-height: fit-content;
+    min-height: fit-content
     }
     #page_content {
     margin-bottom: 2em;
@@ -264,28 +257,28 @@ padding-right: 0.35em
     font-size: 20pt
     }
     .pet--statsheader, #bio h2, #testimonials h2 {
-        font-size: 24pt;
+        font-size: 24pt
     }
     .pet--name {
         font-size: 60pt;
-        display: block;
+        display: block
     }
     .pet--header {
         margin-top: -1em;
         font-size: 24pt
     }
     #petImage {
-    margin-left: 50%;
+    margin-left: 50%
     }
     .pet--petpetimg {
-        margin-left: 20%;
+        margin-left: 20%
     }
     .pet--no-trade-alert {
         bottom: -2em;
         font-size: 24pt
     }
     .pet--petpetheader:before, .pet--petpetheader:after, .pet--petpetdesc {
-        font-size: 20pt;
+        font-size: 20pt
     }
     .pet--petpetname {
         font-size: 24pt

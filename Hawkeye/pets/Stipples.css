@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');/*nav positioning*/
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+/*nav positioning*/
 #nav, #mobilenav {
 font-size: 13pt;
 position: relative;
@@ -12,9 +13,9 @@ gap: 1em
 }
 #back {
 width: 4em;
-height: 4em;
+height: 4em
 }
-#back a{
+#back a {
 width: 4em;
 height: 4em;
 background-color: white;
@@ -22,12 +23,12 @@ border-radius: 500px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-box-shadow: 5px 5px 10px 0px rgba(0,0,0,.5);
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
 border: 5px dotted #86c658
 }
 #contact {
 width: 6em;
-height: 6em;
+height: 6em
 }
 #contact a {
 width: 6em;
@@ -37,14 +38,14 @@ border-radius: 500px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-box-shadow: 5px 5px 10px 0px rgba(0,0,0,.5);
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
 border: 5px dotted #86c658
 }
 #page {
 position: relative;
 top: 4em;
 width: 5em;
-height: 5em;
+height: 5em
 }
 #page a {
 width: 5em;
@@ -54,7 +55,7 @@ border-radius: 500px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-box-shadow: 5px 5px 10px 0px rgba(0,0,0,.5);
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
 border: 5px dotted #86c658
 }
 #exit {
@@ -62,7 +63,7 @@ position: relative;
 bottom: 5%;
 right: 30%;
 width: 3em;
-height: 3em;
+height: 3em
 }
 #exit a {
 width: 3em;
@@ -72,13 +73,13 @@ border-radius: 500px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-box-shadow: 5px 5px 10px 0px rgba(0,0,0,.5);
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
 border: 5px dotted #86c658
 }
 /*nav styling*/
 #nav a, #nav a:visited, #mobilenav a, #mobilenav a:visited {
 color: black;
-font-style: italic;
+font-style: italic
 }
 #nav a:hover, #mobilenav a:hover {
 transform: scale(1.05)
@@ -121,7 +122,7 @@ height: fit-content
     display: block;
     font-size: 44pt;
     font-family: jua;
-    margin-top: -.35em;
+    margin-top: -0.35em
 }
 .pet--header {
     flex-wrap: wrap;
@@ -130,11 +131,10 @@ height: fit-content
     border-radius: 500px;
     width: 15em;
     height: 15em;
-    align-content:center;
+    align-content: center;
     position: relative;
     left: 22em;
-    top:;
-    box-shadow: 5px 5px 10px 0px rgba(0,0,0,.5);
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
     border: 5px dotted #86c658
 }
 /*container*/
@@ -148,21 +148,20 @@ padding-left: 1.5em;
 padding-right: 1.5em;
 color: black;
 height: 50em;
-font-family: nunito;
+font-family: nunito
 }
 /*info*/
 #petImage {
 position: relative;
-bottom: 1em;
-left:-3em;
-
-}
-.pet--image {
-    padding: 1.5em;
-    background-color: white;
-    border-radius: 1000px;
-    box-shadow: 5px 5px 10px 0px rgba(0,0,0,.5);
-    border: 5px dotted #86c658
+bottom: 1.5em;
+left: 1em;
+width: 15.5em;
+height: 15.5em;
+border-radius: 1000px;
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+border: 5px dotted #86c658;
+align-content: center;
+background-color: white
 }
 #petInfo {
 grid-template-columns: 50% 50%;
@@ -181,15 +180,15 @@ border-radius: 1000px;
 position: relative;
 right: 5em;
 top: 1em;
-box-shadow: 5px 5px 10px 0px rgba(0,0,0,.5);
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
 border: 5px dotted #86c658
 }
 .pet--age {
-    margin-top: 1.5em;
+    margin-top: 1.5em
 }
 #petTraits {
 font-size: 8pt;
-display: none;
+display: none
 }
 /*extras*/
 #petPetpet {
@@ -199,21 +198,21 @@ flex-direction: column;
 justify-content: center;
 width: 14em;
 height: 14em;
-top: 34em;
+top: 36em;
 left: 2.5em;
 background-color: white;
 border-radius: 1000px;
-box-shadow: 5px 5px 10px 0px rgba(0,0,0,.5);
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
 border: 5px dotted #86c658
 }
 .pet--petpetzapped {
-    display: none;
+    display: none
 }
 .pet--petpetheader {
-    margin-top: 1.5em;
+    margin-top: 1.5em
 }
 .pet--petpetheader, .pet--petpetdesc {
-    font-size: 10pt;
+    font-size: 10pt
 }
 .pet--petpetage {
     display: none
@@ -229,7 +228,7 @@ border: 5px dotted #86c658
     background-color: transparent;
     font-weight: bold;
     bottom: 58em;
-    left: 3em;
+    left: 3em
 }
 .pet--no-trade-text {
     font-size: 11pt;
@@ -240,7 +239,7 @@ border: 5px dotted #86c658
     border-radius: 500px;
     color: red;
     text-shadow: 1px 1px 1px black;
-    box-shadow: 5px 5px 10px 0px rgba(0,0,0,.5);
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
     border: 5px dotted #86c658
 }
 .pet--no-trade-icon {
@@ -268,51 +267,49 @@ padding-left: 0.35em;
 padding-right: 0.35em
 }
 @media screen and (max-width: 959px) {
-
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #nav {
     font-size: 22pt;
     left: 16%;
-    gap: .5em;
+    gap: 0.5em
     }
     #container {
-    min-height: fit-content;
+    min-height: fit-content
     }
     #page_content {
     width: 100dvw;
-    overflow: auto;
+    overflow: auto
     }
     #petLookupContent {
-    margin-top: 10%;
+    margin-top: 10%
     }
     .pet--header {
-        left: 46%;
-        bottom: 3%;
-        font-size: 24pt;
-        height:
+        left: 48%;
+        bottom: 12%;
+        font-size: 24pt
     }
     .pet--name {
-        font-size: 84pt;
+        font-size: 84pt
     }
     #petStats {
-    font-size: 22pt;
-    left: -30%;
-    top: -5%;
+    font-size: 18pt;
+    left: -10%;
+    top: -5%
     }
     .pet--no-trade-alert {
-        bottom: 109%;
+        bottom: 109%
     }
     .pet--no-trade-text {
-        font-size: 20pt;
+        font-size: 20pt
     }
     #petImage {
-    left: -5%;
-    bottom: 17%
+    left: 3%;
+    bottom: 35%
     }
     #petPetpet {
-    top: 64%
+    top: 62%;
+    left: 10%
     }
-
 }

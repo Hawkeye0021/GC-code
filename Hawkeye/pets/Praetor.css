@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap);
 /*STYLE*/
 body {
     background: black;
-    font-family: gideon roman;
+    font-family: gideon roman
 }
 .pet--image {
     content: url(https://i.postimg.cc/5tCSG99B/Praetor.png);
@@ -11,21 +11,21 @@ body {
     transition-timing-function: ease-in-out
 }
 .pet--image:hover {
-    filter: opacity(.15)
+    filter: opacity(0.15)
 }
 .pet--petpetimg {
-    content: url(https://i.postimg.cc/fLsmrxrs/Werhond.png);
+    content: url(https://i.postimg.cc/fLsmrxrs/Werhond.png)
 }
 #nav a, #nav a:visited, #mobilenav a, #mobilenav a:visited {
 color: #0064ff;
 font-style: italic;
 font-weight: lighter;
-font-size: 16pt;
+font-size: 16pt
 }
 #petLookupContent {
 border-radius: 0.75em;
 box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
-color: white;
+color: white
 }
 .pet--name {
     font-size: 48pt
@@ -40,24 +40,22 @@ color: white;
     margin-top: 0;
     border-color: rgb(0, 100, 255);
     border-style: solid;
-    border-width: 2px 0 0px 0;
+    border-width: 2px 0 0 0;
     color: rgb(0, 0, 100);
     text-shadow: 1px 1px 3px #0064ff, -1px -1px 3px #0064ff, -1px 1px 3px #0064ff, 1px -1px 3px #0064ff
 }
 .pet--name, .pet--color, .pet--color:visited {
     transition-duration: 1s;
-    transition-timing-function: ease-in-out
-    color: black !important;
     text-shadow: 1px 1px 3px #0064ff, -1px -1px 3px #0064ff, -1px 1px 3px #0064ff, 1px -1px 3px #0064ff
 }
 .pet--color:hover, .pet--name:hover {
-    filter: opacity(.15)
+    filter: opacity(0.15)
 }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 12pt
 }
 .pet--petpetname {
-    font-size: 16pt;
+    font-size: 16pt
 }
 .pet--statsheader, #bio h2, #testimonials h2 {
     font-size: 18pt;
@@ -68,31 +66,31 @@ color: white;
     border-color: rgb(0, 100, 255);
     border-style: solid;
     border-width: 1px 0 1px 0;
-    border-radius: .25em 0 .25em 0;
+    border-radius: 0.25em 0 0.25em 0
 }
 #petStats, #testimonials {
-font-size: 13pt;
+font-size: 13pt
 }
 #bio {
-    font-size: 14pt;
+font-size: 14pt
 }
 #petTraits {
 display: none
 }
 .pet--gendercolor {
     color: #0064ff;
-    font-weight: lighter;
+    font-weight: lighter
 }
 .pet--hpcolor {
-    color: #0064ff;
+    color: #0064ff
 }
 #petStats a {
 color: #0064ff;
-transition-duration: .25s;
+transition-duration: 0.25s;
 transition-timing-function: ease-in-out
 }
 #petStats a:hover {
-opacity: .5;
+opacity: 0.5
 }
 /*HIDE SHIT*/
 hr, .pet--petpetage, .pet--smallname, .petJobs, #petLead, #page_footer, #petBattle, #sb_top, #sb_side, #page_banner, #petLinks, #mobilenav a, #aio_sidebar_placeholder, #petChallenge {
@@ -100,7 +98,7 @@ hr, .pet--petpetage, .pet--smallname, .petJobs, #petLead, #page_footer, #petBatt
 }
 .pet--no-trade-text {
     background-color: rgba(0, 0, 0, 0.75);
-    color: blue;
+    color: blue
 }
 /*BREAK SHIT*/
 #petDescription, div#desc, main, #petTop, #petInfo, #petPetpet, .pet_all_petpets, .pet_petpet {
@@ -138,7 +136,7 @@ box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
 gap: 0;
 background: black;
 border-bottom: 2px solid #0064ff;
-padding-bottom: 1em;
+padding-bottom: 1em
 }
 #nav, #mobilenav {
 position: absolute;
@@ -155,13 +153,13 @@ gap: 1em
 padding-left: 0.25em;
 padding-right: 0.25em;
 border-radius: 0.25em;
-transition-duration: .25s;
+transition-duration: 0.25s;
 transition-timing-function: ease-in-out
 }
 #nav a:hover, #mobilenav a:hover {
-transform: scale(.9);
+transform: scale(0.9);
 transform-origin: center;
-opacity: .5
+opacity: 0.5
 }
 .pet--header {
     grid-area: header;
@@ -182,7 +180,7 @@ margin-left: 60%
     transition-timing-function: ease-in-out
 }
 .pet--petpetimg:hover {
-    filter: opacity(.15)
+    filter: opacity(0.15)
 }
 .pet--petpetheader {
     grid-area: p2header;
@@ -222,7 +220,7 @@ grid-area: bio;
 margin: 0.25em 0.5em 0.25em 0.25em;
 justify-content: center;
 align-content: center;
-text-align: center;
+text-align: center
 }
 #testimonials {
 grid-area: testimonials;
@@ -235,7 +233,7 @@ justify-content: center
 }
 #testimonials h2, #bio h2 {
 width: 75%;
-margin: auto;
+margin: auto
 }
 #testimonials p {
 width: 30%
@@ -257,19 +255,19 @@ padding-right: 0.35em
 .pet--no-trade-text {
     padding: 0.25em;
     border-radius: 0.5em;
-    font-size: 12pt;
+    font-size: 12pt
 }
 .pet--no-trade-icon {
     display: none
 }
 #testimonials {
-display: none;
+display: none
 }
 @media screen and (max-width: 959px) {
     #nav {
     display: none
     }
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #mobilenav {

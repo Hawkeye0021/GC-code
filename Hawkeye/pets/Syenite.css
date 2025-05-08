@@ -1,4 +1,3 @@
-
 @import url(https://fonts.googleapis.com/css2?family=New+Rocker&display=swap);
 /*STYLE*/
 body {
@@ -157,7 +156,7 @@ gap: 1em
 }
 #nav a, #nav a:visited, #mobilenav a, #mobilenav a:visited {
 padding-left: 0.25em;
-padding-right: 0.25em;
+padding-right: 0.25em
 }
 #nav a:hover, #mobilenav a:hover {
 scale: 0.9
@@ -258,7 +257,7 @@ padding-right: 0.35em
     #nav {
     display: none
     }
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #mobilenav {

@@ -10,7 +10,7 @@ font-size: 12pt
 #petLookupContent {
 border-radius: 0.75em;
 box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
-font-family: serif;
+font-family: serif
 }
 .pet--name {
     font-size: 42pt
@@ -21,7 +21,7 @@ font-family: serif;
     background-color: #dec6ef;
     color: white;
     text-shadow: 1px 1px 1px #000;
-    font-family: courier;
+    font-family: courier
 }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 10pt
@@ -30,15 +30,15 @@ font-family: serif;
     font-size: 16pt;
     color: black;
     background-color: #dec6ef;
-    font-family: courier;
+    font-family: courier
 }
 .pet--petpetname {
     font-size: 16pt;
     color: #742d86;
-    font-family: courier;
+    font-family: courier
 }
 .pet--color {
-    color: #9c42ce;
+    color: #9c42ce
 }
 .pet--color:hover {
     color: #ad6bde
@@ -81,13 +81,7 @@ body {
 }
 #petLookupContent {
 display: grid;
-grid-template-areas:
-"header header"
-"pet p2img"
-"p2header p2header"
-"p2desc p2desc"
-"stats  bio"
-"testimonials testimonials";
+grid-template-areas: "header header" "pet p2img" "p2header p2header" "p2desc p2desc" "stats  bio" "testimonials testimonials";
 grid-template-columns: 50%;
 grid-template-rows: auto auto auto auto auto auto auto;
 width: fit-content;
@@ -117,7 +111,7 @@ padding-right: 0.25em;
 border-radius: 0.25em
 }
 #nav a:hover, #mobilenav a:hover {
-scale: .9
+scale: 0.9
 }
 .pet--header {
     grid-area: header;
@@ -179,7 +173,7 @@ justify-content: center
 #testimonials {
 grid-area: testimonials;
 margin: 0.25em 0.5em 0.5em 0.5em;
-display: flex;
+display: none;
 flex-direction: row;
 flex-wrap: wrap;
 column-gap: 1em;
@@ -219,7 +213,7 @@ padding-right: 0.35em
     #nav {
     display: none
     }
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #mobilenav {
@@ -229,13 +223,13 @@ padding-right: 0.35em
     gap: 0;
     width: 100%;
     justify-content: center;
-    gap: 1em;
+    gap: 1em
     }
     #mobilenav a {
-    font-size: 30pt;
+    font-size: 30pt
     }
     #container {
-    min-height: fit-content;
+    min-height: fit-content
     }
     #page_content {
     margin-bottom: 2em;
@@ -251,28 +245,28 @@ padding-right: 0.35em
     font-size: 20pt
     }
     .pet--statsheader, #bio h2, #testimonials h2 {
-        font-size: 24pt;
+        font-size: 24pt
     }
     .pet--name {
         font-size: 60pt;
-        display: block;
+        display: block
     }
     .pet--header {
         margin-top: -1em;
         font-size: 24pt
     }
     #petImage {
-    margin-left: 50%;
+    margin-left: 50%
     }
     .pet--petpetimg {
-        margin-left: 20%;
+        margin-left: 20%
     }
     .pet--no-trade-alert {
         bottom: -2em;
         font-size: 24pt
     }
     .pet--petpetheader:before, .pet--petpetheader:after, .pet--petpetdesc {
-        font-size: 20pt;
+        font-size: 20pt
     }
     .pet--petpetname {
         font-size: 24pt

@@ -143,9 +143,7 @@ margin-left: 60%
     font-size: 12pt
 }
 .pet--petpetdesc {
-    grid-area: p2desc;
-    margin-bottom: 0.25em
-    margin-top: -.5em;
+    grid-area: p2desc
 }
 .pet--statsheader {
     width: 100%;
@@ -280,7 +278,7 @@ rotate: -20deg
     #nav {
     display: none
     }
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #mobilenav {

@@ -1,12 +1,12 @@
 /*STYLE*/
 body {
-    background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/backgrounds/Parlor.jpg);
+    background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/backgrounds/Parlor.jpg)
 }
 #nav a, #nav a:visited, #mobilenav a, #mobilenav a:visited {
 background: #7c3e27;
 color: #debc8c;
 padding: 3px;
-font-size: 12pt;
+font-size: 12pt
 }
 #petLookupContent {
 border-radius: 0.75em;
@@ -18,15 +18,15 @@ box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75)
 .pet--header {
     font-size: 18pt;
     margin-top: 0;
-    background:#f55583;
+    background: #f55583;
     color: white;
-    text-shadow: -1px -1px 1px black, 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black;
+    text-shadow: -1px -1px 1px black, 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black
 }
 .pet--color {
     color: #debc8c
 }
 .pet--color:hover {
-    color: #7c3e27;
+    color: #7c3e27
 }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 10pt
@@ -41,8 +41,7 @@ box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75)
     background: #7c3e27
 }
 #testimonials h2 {
-background: #debc8c;
-
+background: #debc8c
 }
 .pet--petpetname {
     font-size: 16pt
@@ -217,7 +216,7 @@ padding-right: 0.35em
     #nav {
     display: none
     }
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #mobilenav {

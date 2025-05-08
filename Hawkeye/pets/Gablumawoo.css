@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Delius&family=Preahvihear&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Dekko&family=Delius&family=Preahvihear&display=swap);
 /*STYLE*/
 body {
     background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/backgrounds/CosyGamer.jpg)
@@ -22,7 +22,7 @@ font-family: delius
     font-size: 44pt;
     display: block;
     font-family: dekko;
-    line-height: 1em;
+    line-height: 1em
 }
 .pet--header {
     font-size: 18pt;
@@ -31,13 +31,13 @@ font-family: delius
     color: white;
     text-shadow: 1px 1px 1px #000;
     border-top: 3px solid #cfaae8;
-    line-height: 1em;
+    line-height: 1em
 }
 .pet--petpetheader, .pet--petpetdesc {
-    font-size: 10pt
+    font-size: 11pt
 }
 .pet--statsheader, #bio h2, #testimonials h2 {
-    font-size: 15pt;
+    font-size: 14pt;
     color: white;
     text-shadow: 1px 1px 1px #000;
     background-color: #76a3ed;
@@ -49,16 +49,10 @@ font-family: delius
     text-shadow: 1px 1px 0 black
 }
 #petStats, #testimonials, #bio {
-font-size: 11pt
+font-size: 12pt
 }
 #petTraits {
 display: none
-}
-.pet--color {
-    color: #cfaae8
-}
-.pet--color:hover {
-    color: #eba7c7
 }
 #petStats a {
 color: #b174d9
@@ -142,8 +136,8 @@ scale: 0.9
     margin-top: 0;
     margin-bottom: 0.25em;
     border-bottom: 1px black;
-    padding-bottom: .25em;
-    padding-top: .15em;
+    padding-bottom: 0.25em;
+    padding-top: 0.15em
 }
 #petImage {
 grid-area: pet;
@@ -238,7 +232,7 @@ padding-right: 0.35em
     #nav {
     display: none
     }
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #mobilenav {

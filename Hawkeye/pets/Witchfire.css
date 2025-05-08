@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Tulpen+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Iceberg&family=Tulpen+One&display=swap);
 /*nav positioning*/
 #nav, #mobilenav {
 font-size: 16pt;
@@ -11,16 +11,16 @@ text-align: center;
 display: flex;
 flex-direction: row;
 justify-self: center;
-gap: 1em;
+gap: 1em
 }
 /*nav styling*/
 #nav a, #nav a:visited, #mobilenav a, #mobilenav a:visited {
 padding-left: 0.25em;
 padding-right: 0.25em;
 border-radius: 0.25em;
-color: #33ffff;
+color: #3ff;
 font-weight: lighter;
-text-shadow: 0 0 4px #33ffff;
+text-shadow: 0 0 4px #3ff
 }
 #nav a:hover, #mobilenav a:hover {
 transform: scale(1.15)
@@ -63,20 +63,20 @@ height: fit-content
     display: block;
     font-size: 64pt;
     font-family: iceberg;
-    color: #33ffff;
-    text-shadow: 0 0 5px #33ffff;
+    color: #3ff;
+    text-shadow: 0 0 5px #3ff;
     font-weight: lighter;
-    line-height: .75em;
-    margin-top: .15em;
-    letter-spacing: .03em;
+    line-height: 0.75em;
+    margin-top: 0.15em;
+    letter-spacing: 0.03em
 }
 .pet--header {
     font-size: 12pt;
     margin-top: 0
 }
 .pet--color {
-    color: #33ffff;
-    text-shadow: 0 0 4px #33ffff;
+    color: #3ff;
+    text-shadow: 0 0 4px #3ff
 }
 .pet--color:hover {
     color: #003ae8
@@ -88,22 +88,22 @@ min-width: 40em;
 margin: auto;
 position: relative;
 background-image: url(https://i.postimg.cc/3Rrgx9Fj/storm-dark.jpg);
-backdrop-filter: brightness(.4);
+backdrop-filter: brightness(0.4);
 border-radius: 0.75em;
 padding-bottom: 1em;
 padding-left: 1.5em;
 padding-right: 1.5em;
-box-shadow: 0px 0px 10px 3px #33ffff;
+box-shadow: 0 0 10px 3px #3ff;
 color: #eee;
 font-family: roboto;
 font-weight: 100;
-letter-spacing: .05em;
+letter-spacing: 0.05em;
 font-style: italic;
-border: 2px solid #33ffff;
+border: 2px solid #3ff
 }
 #petStats a, .pet--gendercolor, .pet--hpcolor {
-color: #33ffff;
-text-shadow: 0 0 4px #33ffff;
+color: #3ff;
+text-shadow: 0 0 4px #3ff
 }
 #petStats a:hover {
 color: #003ae8
@@ -113,7 +113,7 @@ color: #003ae8
 width: 100%
 }
 .pet--image {
-    content: url(https://i.postimg.cc/kX3Vgfc0/Flotsam-Electric.png);
+    content: url(https://i.postimg.cc/kX3Vgfc0/Flotsam-Electric.png)
 }
 #petInfo {
 grid-template-columns: 50% 50%;
@@ -136,7 +136,7 @@ width: 45%;
 top: 20em
 }
 .pet--petpetimg {
-    content: url(https://i.postimg.cc/ZKXhSMxN/Soreen.png);
+    content: url(https://i.postimg.cc/ZKXhSMxN/Soreen.png)
 }
 .pet--petpetheader, .pet--petpetdesc {
     font-size: 12pt
@@ -148,20 +148,20 @@ top: 20em
     display: block;
     font-size: 24pt;
     font-family: iceberg;
-    color: #33ffff;
-    text-shadow: 0px 0px 4px #33ffff;
+    color: #3ff;
+    text-shadow: 0 0 4px #3ff
 }
 .pet--petpetzapped {
     color: transparent;
     position: relative;
     bottom: 12em;
     right: 3em;
-    transform: rotatey(180deg);
+    transform: rotatey(180deg)
 }
 .pet--no-trade-alert {
     position: absolute;
     background-color: transparent;
-    color: #33ffff;
+    color: #3ff;
     bottom: -3em;
     font-weight: 100;
     font-size: 12pt;
@@ -202,7 +202,7 @@ padding-right: 0.35em
     #nav {
     display: none
     }
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #mobilenav {

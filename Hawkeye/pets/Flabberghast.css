@@ -1,4 +1,3 @@
-
 @import url(https://fonts.googleapis.com/css2?family=Finger+Paint&family=Schoolbell&display=swap);
 /*nav positioning*/
 #nav {
@@ -109,10 +108,10 @@ box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.75)
 /*info*/
 #petInfo {
 width: 100%;
-grid-template-columns: 50%;
+grid-template-columns: 50%
 }
 #petImage {
-width: 50%;
+width: 50%
 }
 .pet--image {
     content: url(https://i.postimg.cc/BvFStZbD/FlobGab.png);
@@ -208,13 +207,13 @@ padding-right: 10px
 }
 @media screen and (max-width: 959px) {
     #nav {
-    font-size: 24pt;
+    font-size: 24pt
     }
-    #sb_top {
+    #sb_top, #sb_side {
     display: initial
     }
     #container {
-    min-height: fit-content;
+    min-height: fit-content
     }
     #page_content {
     margin-bottom: 2em;
@@ -232,14 +231,14 @@ padding-right: 10px
     font-size: 28pt;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    gap: 1em;
+    gap: 1em
     }
     #bio {
     grid-area: bio;
-    width: 95%;
+    width: 95%
     }
     #testimonials {
-    width: 95%;
+    width: 95%
     }
     #petStats {
     font-size: 28pt
@@ -255,13 +254,13 @@ padding-right: 10px
         font-size: 32pt
     }
     .pet--name:after {
-        display: none;
+        display: none
     }
     .pet--image {
         position: absolute;
         width: 53dvw;
         rotate: -25deg;
-        left: -0em;
+        left: 0;
         top: 11em
     }
     .pet--no-trade-alert {
