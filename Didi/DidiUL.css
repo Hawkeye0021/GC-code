@@ -1,25 +1,26 @@
+
 hr, #page_footer, #sb_top, #sb_side, #page_banner, #aio_sidebar {
   display: none
 }
 #userLookupContent img {
-mix-blend-mode: multiply;
+mix-blend-mode: multiply
 }
 body {
-  background-image: url(https://impress-2020.openneo.net/api/assetImage?libraryUrl=https%3A%2F%2Fimages.neopets.com%2Fcp%2Fitems%2Fdata%2F000%2F000%2F310%2F310856_3819e6cb1d%2Fall-background.js&size=600);
+  background-image: url(https://raw.githubusercontent.com/Hawkeye0021/GC-code/refs/heads/main/Didi/ULbg.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: #22597e;
+  color: #22597e
 }
 #container {
-width: 100%;
+width: 100dvw;
 height: 100dvh;
 display: flex;
-flex-direction: column;
+flex-direction: column
 }
 #page_content {
 margin: auto;
-width: 48em;
+width: 48em
 }
 #nav {
 position: absolute;
@@ -32,8 +33,8 @@ padding: 0.25em;
 justify-content: space-evenly;
 justify-self: center;
 background: #d4dff3;
-border-radius: 0 0 .5em .5em;
-border-width: 0 .3em .3em .3em;
+border-radius: 0 0 0.5em 0.5em;
+border-width: 0 0.3em 0.3em 0.3em;
 border-style: solid;
 border-color: #7b93b9;
 box-shadow: 0 0 5px 0 #596a85
@@ -49,24 +50,24 @@ padding-left: 0.65em;
 padding-right: 0.65em;
 border-radius: 0.35em;
 background: #7b93b9;
-box-shadow: 0 0 5px 0px #596a85
+box-shadow: 0 0 5px 0 #596a85
 }
 #nav a:hover {
-transform: scale(.9)
+transform: scale(0.9)
 }
 .ul--headerlabel {
-  display: none;
+  display: none
 }
 .ul--username {
   display: block;
   font-size: 36pt;
-  margin-bottom: -.5em;
-  margin-top: .25em;
-  text-shadow: 1px 2px 3px #596a85;
+  margin-bottom: -0.5em;
+  margin-top: 0.25em;
+  text-shadow: 1px 2px 3px #596a85
 }
 #userLookupDesc {
 margin-top: 1.5em;
-display: contents;
+display: contents
 }
 #about h2 {
 display: flex;
@@ -76,40 +77,40 @@ margin: 0 30% 0 30%;
 color: white;
 background: #7b93b9;
 border-radius: 5em;
-font-size: 12pt;
+font-size: 12pt
 }
 #about {
 background-color: #fafbfd;
 padding: 1em;
 border-radius: 2.5em;
-border: .3em solid #b2c2dc;
+border: 0.3em solid #b2c2dc;
 box-shadow: 0 0 5px 1px #596a85;
-margin: 1em 0 -1em 0;
+margin: 1em 0 -1em 0
 }
 #userLookupContent {
 background-color: #d4dff3;
 box-shadow: 0 0 8px 4px #596a85;
-border: .4em solid #7b93b9;
-padding: 0em 1em;
+border: 0.4em solid #7b93b9;
+padding: 0 1em;
 border-radius: 5em;
 display: grid;
-margin-top: 4em;
+margin-top: 4em
 }
 #userLookupInfo {
 background-color: #fafbfd;
 padding: 1em;
 padding-bottom: 1.5em;
 border-radius: 2.5em 2.5em 0 0;
-border-width: .3em .3em 0em .3em;
+border-width: 0.3em 0.3em 0 0.3em;
 border-style: solid;
 border-color: #b2c2dc;
-box-shadow: 0px -3px 8px -4px #596a85;
+box-shadow: 0 -3px 8px -4px #596a85;
 grid-template-areas: "text shield" "text collections";
-grid-template-columns: 65%;
+grid-template-columns: 65%
 }
 #userLookupShield {
 display: flex;
-justify-content: center;
+justify-content: center
 }
 .ul--shield {
   content: url(https://sunnyneo.com/shield/shield_snowbunny.png)
@@ -118,7 +119,7 @@ justify-content: center;
 display: flex;
 flex-direction: row;
 height: 100%;
-align-content: center;
+align-content: center
 }
 .ul--stampsimg {
   content: url(https://grundoscafe.b-cdn.net/items/stamp_snowy_bruce.gif)
@@ -128,10 +129,10 @@ margin-top: -1.5em;
 background-color: #fafbfd;
 padding: 0 1em 1em 1em;
 border-radius: 0 0 2.5em 2.5em;
-border-width: 0em .3em .3em .3em;
+border-width: 0 0.3em 0.3em 0.3em;
 border-style: solid;
 border-color: #b2c2dc;
-box-shadow: 0px 5px 10px -6px #596a85;
+box-shadow: 0 5px 10px -6px #596a85
 }
 .ul--tradesimg {
   content: url(https://grundoscafe.b-cdn.net/items/bd_snowflake_exploding.gif)
@@ -150,28 +151,34 @@ box-shadow: 0px 5px 10px -6px #596a85;
 }
 .ul--neofriendimg {
   background: no-repeat center/contain url(https://grundoscafe.b-cdn.net/items/bd_snowflake_poison.gif);
-  object-position: -99999px;
+  object-position: -99999px
 }
 input.small-image {
-  mix-blend-mode: darken;
+  mix-blend-mode: darken
+}
+a {
+  color: #004599
+}
+a:hover {
+  color: #1E9AC4
 }
 .ul--linkimg:hover {
-  transform: scale(.9);
+  transform: scale(0.9)
 }
 #userPetList {
 background-color: #fafbfd;
 padding: 1em;
 border-radius: 2.5em;
-border: .3em solid #b2c2dc;
+border: 0.3em solid #b2c2dc;
 box-shadow: 0 0 5px 1px #596a85;
-margin: 0;
+margin: 0
 }
 div.ul--petsheader:nth-child(1) {
   font-size: 14pt;
-  margin: 0 20% 1em 20%;
+  margin: 0 20% 1em 20%
 }
 div.ul--petsheader:nth-child(2) {
-  margin-top: 0em;
+  margin-top: 0
 }
 .ul--petsheader.ul--sectionheader {
   display: flex;
@@ -182,7 +189,7 @@ div.ul--petsheader:nth-child(2) {
   background: #7b93b9;
   border-radius: 5em;
   font-size: 12pt;
-  margin-top: 2em;
+  margin-top: 2em
 }
 .ul--sectionheader {
   display: flex;
@@ -193,25 +200,25 @@ div.ul--petsheader:nth-child(2) {
   background: #7b93b9;
   border-radius: 5em;
   font-size: 12pt;
-  margin-bottom: 1em;
+  margin-bottom: 1em
 }
 .userPetList {
-  gap: 1em;
+  gap: 1em
 }
 .ul__pet a, .ul__pet a:hover, .ul__pet a:visited {
-  color: #22597e;
+  color: #22597e
 }
 .ul__pet {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-content: center;
+  align-content: center
 }
 .ul--petimg {
   width: 7em;
-  box-shadow: 0px 0px 6px 0px grey;
+  box-shadow: 0 0 6px 0 grey;
   border-radius: 10em;
-  background: white;
+  background: white
 }
 .ul--petimg:hover {
   transform: scale(1.1)
@@ -220,21 +227,21 @@ div.ul--petsheader:nth-child(2) {
 background-color: #fafbfd;
 padding: 1em;
 border-radius: 2.5em;
-border: .3em solid #b2c2dc;
-box-shadow: 0 0 5px 1px #596a85;
+border: 0.3em solid #b2c2dc;
+box-shadow: 0 0 5px 1px #596a85
 }
 #userLookupGameTrophies {
 background-color: #fafbfd;
 padding: 1em;
 border-radius: 2.5em;
-border: .3em solid #b2c2dc;
-box-shadow: 0 0 5px 1px #596a85;
+border: 0.3em solid #b2c2dc;
+box-shadow: 0 0 5px 1px #596a85
 }
 .ul--sitetrophyname, .ul--gametrophyname, .ul--sitetrophycap, a.gamelink {
   font-weight: bold
 }
 #userReportBlock {
-margin: 0;
+margin: 0
 }
 .snowflake {
   color: #fff;
@@ -350,60 +357,59 @@ margin: 0;
 }
 @media screen and (max-width: 959px) {
   #nav {
-  display: none;
+  display: none
   }
   #sb_top {
-  display: initial;
+  display: initial
   }
   #sb_bottom {
-  color: initial;
+  color: initial
   }
   #userLookupContent {
   background: none;
   border: none;
   box-shadow: none;
-  margin-top: 0em;
-  margin-bottom: 8em;
+  margin-top: 0;
+  margin-bottom: 8em
   }
   #userLookupInfo {
-  grid-template-columns: 70%;
+  grid-template-columns: 70%
   }
   #userLookupText {
-  line-height: 1.5em;
+  line-height: 1.5em
   }
   .ul--username {
     font-size: 54pt
   }
   #page_content {
   width: 100dvw;
-  margin: auto;
   }
   #userLookupInfo {
-  font-size: 20pt;
+  font-size: 20pt
   }
   .smallfont {
-    font-size: 14;
+    font-size: 14
   }
   .ul--petsheader.ul--sectionheader, .ul--sectionheader, #about h2 {
     font-size: 20pt;
-    margin: 0 20%;
+    margin: 0 20%
   }
   div.ul--petsheader:nth-child(1) {
-    font-size: 24pt;
+    font-size: 24pt
   }
   .ul__pet {
     box-shadow: initial;
-    border-radius: 0em;
-    padding: 0em;
-    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    background: transparent
   }
   #userLookupCollections {
-  flex-direction: column;
+  flex-direction: column
   }
   .ul--sitetrophyname, .ul--gametrophyname, .ul--sitetrophycap, a.gamelink {
-    font-size: 16pt;
+    font-size: 16pt
   }
   .ul--gametrophiesheader, .ul--sitetrophiesheader {
-    margin-bottom: 1em;
+    margin-bottom: 1em
   }
 }
