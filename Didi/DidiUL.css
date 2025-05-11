@@ -13,8 +13,8 @@ body {
   color: #22597e
 }
 #container {
-width: 100dvw;
-height: 100dvh;
+width: 100vw;
+height: 100vh;
 display: flex;
 flex-direction: column
 }
@@ -364,7 +364,7 @@ margin: 0
   }
   #sb_bottom, #sb_top {
   color: initial;
-  width: 100dvw;
+  width: 100vw;
   }
   #userLookupContent {
   background: none;
@@ -373,7 +373,7 @@ margin: 0
   margin: auto;
   margin-top: 0;
   margin-bottom: 8em;
-  width: 85dvw
+  width: 85vw
   }
   #userLookupInfo {
   grid-template-columns: 70%
@@ -385,7 +385,7 @@ margin: 0
     font-size: 54pt
   }
   #page_content {
-  width: 100dvw;
+  width: 100vw;
   }
   #userLookupInfo {
   font-size: 20pt
