@@ -55,13 +55,13 @@ display: contents
 }
 /*CENTERING*/
 #page_content {
-    width: 100dvw;
+    width: 100vw;
 }
 #container {
 margin: auto;
 display: flex;
 flex-direction: column;
-width: 100dvw;
+width: 100vw;
 min-height: 100dvh;
 height: fit-content;
 justify-content: center;
@@ -236,7 +236,7 @@ padding-right: 0.35em
     margin-top: 2em
     }
     #petLookupContent {
-    width: 90dvw;
+    width: 90vw;
     height: fit-content;
     font-size: 24pt;
     padding-top: 1em
