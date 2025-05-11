@@ -359,18 +359,20 @@ margin: 0
   #nav {
   display: none
   }
-  #sb_top {
-  display: initial
+  #sb_top, #sb_side {
+  display: initial;
   }
-  #sb_bottom {
-  color: initial
+  #sb_bottom, #sb_top {
+  color: initial;
+  width: 100dvw;
   }
   #userLookupContent {
   background: none;
   border: none;
   box-shadow: none;
   margin-top: 0;
-  margin-bottom: 8em
+  margin-bottom: 8em;
+  width: 85dvw
   }
   #userLookupInfo {
   grid-template-columns: 70%
