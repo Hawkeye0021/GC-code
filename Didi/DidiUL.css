@@ -156,6 +156,9 @@ box-shadow: 0 5px 10px -6px #596a85
 input.small-image {
   mix-blend-mode: darken
 }
+div.ul__link:nth-child(6) {
+  align-content: flex-start
+}
 a {
   color: #004599
 }
@@ -360,10 +363,10 @@ margin: 0
 .ul--petname {
   display: block;
   word-break: normal;
-  overflow-wrap: normal;
+  overflow-wrap: normal
 }
 .ul__pet {
-  max-width: 15%;
+  max-width: 15%
 }
 .userPetList {
   gap: 1.5em
@@ -428,7 +431,7 @@ margin: 0
   }
   #userLookupSiteTrophies, #userLookupGameTrophies {
   padding-left: 0;
-  padding-right: 0;
+  padding-right: 0
   }
   #gameTrophiesList, #siteTrophiesList {
   gap: 1em
@@ -441,5 +444,14 @@ margin: 0
   }
   .ul--gametrophiesheader, .ul--sitetrophiesheader {
     margin-bottom: 1em
+  }
+  .ul--linkimg {
+    width: 90%;
+  }
+  .ul--neofriendimg {
+    background-position-y: -.25em;
+  }
+  form {
+    height: 72px !important;
   }
 }
