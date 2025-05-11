@@ -357,6 +357,17 @@ margin: 0
   left: 65%;
   animation-delay: 2.5s
 }
+.ul--petname {
+  display: block;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+.ul__pet {
+  max-width: 15%;
+}
+.userPetList {
+  gap: 1.5em
+}
 @media screen and (max-width: 959px) {
   #nav {
   display: none
@@ -394,7 +405,7 @@ margin: 0
   }
   #userPetList {
   padding-left: 0;
-  padding-right: 0;
+  padding-right: 0
   }
   .smallfont {
     font-size: 14
@@ -410,10 +421,17 @@ margin: 0
     box-shadow: initial;
     border-radius: 0;
     padding: 0;
-    background: transparent;
+    background: transparent
   }
-  .ul--petimg {
-    width: 17vw
+  .med-image, .ul__gametrophy, .ul__sitetrophy {
+    width: 14vw
+  }
+  #userLookupSiteTrophies, #userLookupGameTrophies {
+  padding-left: 0;
+  padding-right: 0;
+  }
+  #gameTrophiesList, #siteTrophiesList {
+  gap: 1em
   }
   #userLookupCollections {
   flex-direction: column
